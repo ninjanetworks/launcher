@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="adw_changelog">
+-&lt;b>HINWEIS:&lt;/b> Wenn ein Theme schlecht aussieht, fragen Sie den Entwickler nach einem Update!!! &lt;br>&lt;br>
+-&lt;b>HINWEIS:&lt;/b> Zum Ändern der Bildschirme drücke MENU/Bearbeiten.&lt;br>&lt;br>
+-&lt;b>HINWEIS:&lt;/b> Zum Einschalten der autom. Ausrichtung, schalte Persistenz aus.&lt;br>&lt;br>
+-&lt;b>DENKE DARAN:&lt;/b> Apps können im Drawer durch Nutzung eigener Kataloge versteckt werden (MENU-Taste im geöffneten Drawer).&lt;br>&lt;br>
+
+&lt;b>Version 1.3.0:&lt;/b>&lt;br>
+&lt;b>--------------&lt;/b>&lt;br>
+-Kleine Umgestaltung der Oberfläche. (Der Papierkorb ist nun oben, konfigurierbares Haupt-Dock, usw.)&lt;br>
+-Verschiebe ein Icon auf die gleiche Position von der es kommt, um es zu editieren.&lt;br>
+-Unterstützung für farbige Benachrichtigungs-Bubbles. &lt;br>
+-Einfacheres Scrollen in der versteckten Dockbar. &lt;br>
+-Die Drawer Schaltfläche kann nun mit anderen Aktionen / Icons überschrieben werden. &lt;br>
+-Widgets können nun auch mittels Papierkorb deinstalliert werden. (Lange über den Papierkorb halten)&lt;br>
+-Viele Fehlerfixes &lt;br>
+
+</string>
+</resources>

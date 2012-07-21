@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="5865630159700533006">"ADW主界面"</string>
+    <string name="folder_name" msgid="4588446541914685904">"文件夹"</string>
+    <string name="chooser_wallpaper" msgid="5988031014201479733">"选择壁纸"</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"设置壁纸"</string>
+    <string name="activity_not_found" msgid="3571057450431950427">"应用程序尚未安装在你的手机上"</string>
+    <string name="configure_wallpaper" msgid="2820186271419674623">"设置..."</string>
+    <string name="rename_folder_label" msgid="5646236631298452787">"文件夹名称"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"重命名文件夹"</string>
+    <string name="rename_action" msgid="6016003384693240896">"确定"</string>
+    <string name="cancel_action" msgid="3811860427489435048">"取消"</string>
+    <string name="menu_item_add_item" msgid="6233177331075781114">"添加到桌面"</string>
+    <string name="group_applications" msgid="4118484163419674240">"应用程序"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"快捷键"</string>
+    <string name="group_search" msgid="5905328940867162196">"搜索"</string>
+    <string name="group_folder" msgid="5143593791798929193">"新建文件夹"</string>
+    <string name="group_live_folders" msgid="2664945399140647217">"文件夹"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"小工具"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"壁纸库"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"桌面上没有足够的空间。"</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"快捷方式 \"<xliff:g id="NAME">%s</xliff:g>\" 已创建。"</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"快捷方式 \"<xliff:g id="NAME">%s</xliff:g>\" 已删除。"</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"快捷方式 \"<xliff:g id="NAME">%s</xliff:g>\" 已存在。"</string>
+    <string name="title_select_shortcut" msgid="2858897527672831763">"选择快捷方式"</string>
+    <string name="title_select_live_folder" msgid="3753447798805166749">"选择文件夹"</string>
+    <string name="menu_add" msgid="3065046628354640854">"添加"</string>
+    <string name="menu_delete">移除</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"壁纸"</string>
+    <string name="menu_search" msgid="4826514464423239041">"搜索"</string>
+    <string name="menu_settings" msgid="6233960148378443661">"设置"</string>
+    <string name="menu_adw_settings">桌面设置</string>
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"安装快捷方式"</string>
+    <string name="permdesc_install_shortcut" msgid="7429365847558984148">"允许应用程序自动安装快捷方式。"</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"卸载快捷方式"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"允许应用程序自动卸载快捷方式。"</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"读取主界面设置和快捷方式"</string>
+    <string name="permdesc_read_settings" msgid="8377434937176025492">"允许应用程序读取主界面设置和快捷方式。"</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"写入主界面和快捷方式"</string>
+    <string name="permdesc_write_settings" msgid="1098648778383349818">"允许应用程序写入主界面设置和快捷方式。"</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"加载小工具时出现问题"</string>
+    
+    <!-- ADW Settings -->
+    <string name="pref_label_settings">桌面设置</string>
+    <!-- Screen preferences -->
+    <string name="pref_title_screen_preferences">桌面设置</string>
+    <string name="pref_summary_screen_preferences">桌面数量，默认桌面...</string>
+
+    <string name="pref_title_wallpaper_hack">壁纸优化</string>
+    <string name="pref_summary_wallpaper_hack">在使用较大壁纸时出现FC时，请禁用此选项，开启此选项后可提升屏幕滚动的表现</string>
+
+    <string name="pref_title_orientation_sensor">旋转方向</string>
+    <string name="pref_summary_orientation_sensor">选择默认桌面旋转方向</string>
+
+    <string name="pref_title_hide_statusbar">隐藏状态栏</string>
+    <string name="pref_summary_hide_statusbar">隐藏屏幕上方的状态栏</string>
+
+    <string name="pref_title_looping">屏幕循环</string>
+    <string name="pref_summary_looping">开启工作区循环显示</string>
+
+    <string name="pref_title_default_screen">默认桌面</string>
+
+    <string name="pref_title_desktop_scrolling_speed">滚动速度</string>
+    <string name="pref_summary_desktop_scrolling_speed">设置滚动时切换桌面的速度</string>
+    <string name="pref_dialog_desktop_scrolling_speed">数值越小，滚动速度越快</string>
+
+    <string name="pref_title_desktop_overshoot">弹性特效</string>
+    <string name="pref_summary_desktop_overshoot">开启桌面滑动时的弹性效果</string>
+    <string name="pref_dialog_desktop_overshoot">设置为0时禁用桌面弹性效果</string>
+
+    <string name="pref_title_desktop_transition">桌面过渡动画</string>
+    <string name="pref_summary_desktop_transition">桌面分页切换时要使用的动画效果</string>
+
+    <!-- Drawer Settings -->
+    <string name="pref_title_drawer_settings">托盘设置</string>
+    <string name="pref_summary_drawer_settings">托盘动画显示设置</string>
+
+    <string name="pref_title_zoom_effect_speed">缩放特效速度</string>
+    <string name="pref_summary_zoom_effect_speed">设置托盘打开时的缩放动画速度（毫秒）</string>
+    <string name="pref_dialog_zoom_effect_speed">设置托盘打开时的缩放动画速度（毫秒）</string>
+
+    <string name="pref_title_page_horizontal_margin">横向边距</string>
+    <string name="pref_summary_page_horizontal_margin">设置托盘每页之间的横向边距</string>
+    <string name="pref_dialog_page_horizontal_margin">设置托盘每页之间的横向边距</string>
+
+    <string name="pref_title_animated_drawer">托盘动画</string>
+    <string name="pref_summary_animated_drawer">设置开启托盘时是否显示缩放动画</string>
+
+    <string name="pref_title_drawer_columns_portrait">竖屏托盘列数</string>
+    <string name="pref_summary_drawer_columns_portrait">选择竖屏时托盘显示的图标列数</string>
+    <string name="pref_dialog_drawer_columns_portrait">选择竖屏时托盘显示的图标列数</string>
+
+    <string name="pref_title_drawer_rows_portrait">竖屏托盘行数</string>
+    <string name="pref_summary_drawer_rows_portrait">选择竖屏时托盘显示的图标行数</string>
+    <string name="pref_dialog_drawer_rows_portrait">选择竖屏时托盘显示的图标行数</string>
+
+    <string name="pref_title_drawer_columns_landscape">横屏托盘列数</string>
+    <string name="pref_summary_drawer_columns_landscape">选择横屏时托盘显示的图标列数</string>
+    <string name="pref_dialog_drawer_columns_landscape">选择横屏时托盘显示的图标列数</string>
+
+    <string name="pref_title_drawer_rows_landscape">横屏托盘行数</string>
+    <string name="pref_summary_drawer_rows_landscape">选择横屏时托盘显示的图标行数</string>
+    <string name="pref_dialog_drawer_rows_landscape">选择横屏时托盘显示的图标行数</string>
+
+    <!-- Previews preferences -->
+    <string name="pref_title_sense_previews">Sense风格预览</string>
+    <string name="pref_summary_sense_previews">使用Sense界面的缩略图预览风格</string>
+
+    <!-- Button preferences -->
+    <string name="pref_title_ui_settings">界面设置</string>
+    <string name="pref_summary_ui_settings">界面元素的开关</string>
+
+    <string name="pref_title_home_button_binding">主页键功能</string>
+    <string name="pref_summary_home_button_binding">选择主页键绑定的功能</string>
+
+    <string name="pref_title_swipedown_actions">下滑手势</string>
+    <string name="pref_summary_swipedown_actions">选择向下滑动手势动作</string>
+    
+    <string name="pref_title_swipeup_actions">上滑手势</string>
+    <string name="pref_summary_swipeup_actions">选择向上滑动手势动作</string>
+
+    <string name="pref_title_doubletap_actions">双触动作</string>
+    <string name="pref_summary_doubletap_actions">选择双触时的动作</string>
+
+    <string name="pref_title_desktop_dots">桌面分页点</string>
+    <string name="pref_summary_desktop_dots">开启/关闭Nexus风格的桌面分页点</string>
+
+    <string name="pref_title_dockbar">扩展栏</string>
+    <string name="pref_summary_dockbar">开启/关闭桌面底部的快捷方式扩展栏</string>
+
+    <string name="pref_title_closing_dockbar">自动关闭扩展栏</string>
+    <string name="pref_summary_closing_dockbar">应用程序启动后，自动关闭打开的扩展栏</string>
+
+    <string name="pref_title_closing_folder">自动关闭文件夹</string>
+    <string name="pref_summary_closing_folder">应用程序启动后，自动关闭打开的文件夹</string>
+
+    <string name="pref_title_ab_scale_factor">动作按键图标缩放</string>
+    <string name="pref_summary_ab_scale_factor">选择动作按键的图标缩放尺寸</string>
+    <string name="pref_dialog_ab_scale_factor">选择动作按键的图标缩放尺寸</string>
+
+    <string name="pref_title_hide_ab_bg">隐藏动作按键背景</string>
+    <string name="pref_summary_hide_ab_bg">隐藏左右动作按键的背景</string>
+
+    <string name="pref_title_hide_icon_labels">隐藏图标标签</string>
+    <string name="pref_summary_hide_icon_labels">隐藏桌面图标下方的文字标签</string>
+
+    <string name="pref_title_build_info">版本信息</string>
+    <string name="pref_title_adw_version">ADW版本</string>
+
+    <string name="pref_title_icon_highlights">点击高亮颜色</string>
+    <string name="pref_summary_icon_highlights">选择当图标被点击时的高亮颜色</string>
+    <string name="pref_title_icon_highlights_focus">焦点高亮颜色</string>
+    <string name="pref_summary_icon_highlights_focus">选择图标被聚焦时的高亮颜色</string>
+    <string name="pref_title_new_selectors">使用新的聚焦界面</string>
+    <string name="pref_summary_new_selectors">选择是否使用新的聚焦界面</string>
+    <string name="pref_title_drawer_color">背景颜色</string>
+    <string name="pref_summary_drawer_color">选择托盘的背景颜色</string>
+
+    <string name="pref_dialog_title_color_picker">选取颜色</string>
+    <string name="pref_dialog_message_color_picker">点击中间的颜色确认。\n点击返回取消选择。</string>
+    <string name="pref_dialog_color_picker_alpha">透明度</string>
+    <string name="pref_message_restart_normal">更改这个设置会使得ADW主界面自动重启，退出设置后，请按主页键重新激活ADW主界面</string>
+    <string name="pref_message_restart_froyo">更改这个设置会使得ADW主界面自动重启，退出设置后，请按主页键重新激活ADW主界面</string>
+    <string name="drop_to_uninstall">卸载应用程序</string>
+
+    <string name="pref_title_import_export">备份与恢复</string>
+    <string name="pref_title_xml">ADW 设置</string>
+    <string name="pref_title_xml_import">恢复ADW设置</string>
+    <string name="pref_summary_xml_import">从文件/sdcard/adw_settings.xml中恢复 ADW 设置</string>
+    <string name="pref_title_xml_export">备份ADW设置</string>
+    <string name="pref_summary_xml_export">将ADW设置备份到文件/sdcard/adw_settings.xml</string>
+
+    <string name="pref_title_db">桌面设置</string>
+    <string name="pref_title_db_import">恢复桌面设置</string>
+    <string name="pref_summary_db_import">从文件/sdcard/adw_launcher.db中恢复桌面设置</string>
+    <string name="pref_title_db_export">备份桌面设置</string>
+    <string name="pref_summary_db_export">将桌面设置备份到文件/sdcard/adw_launcher.db</string>
+
+    <string name="title_dialog_xml">ADW设置</string>
+    <string name="import_export_sdcard_unmounted">未找到SD卡</string>
+
+    <!-- XML Import/Export strings -->
+    <string name="message_dialog_export">原有文件将被覆盖！确认备份ADW设置？</string>
+    <string name="xml_export_dialog">正在备份ADW设置...</string>
+    <string name="xml_export_success">ADW 设置备份成功！</string>
+    <string name="xml_export_error">备份ADW设置时出现错误！</string>
+
+    <string name="message_dialog_import">ADW将会重启！确认恢复 ADW 设置？</string>
+    <string name="xml_import_dialog">正在恢复ADW设置...</string>
+    <string name="xml_file_not_found">未找到ADW设置备份文件！</string>
+    <string name="xml_not_readable">ADW设置备份文件存在，但无法读取！</string>
+    <string name="xml_import_success">ADW设置恢复成功！</string>
+    <string name="xml_import_error">恢复ADW设置时出现错误！</string>
+
+    <!-- Config Import/Export strings -->
+    <string name="message_dialog_export_config">原有文件将被覆盖！确认备份桌面设置？</string>
+    <string name="dbfile_export_dialog">正在备份桌面设置...</string>
+    <string name="dbfile_export_success">桌面设置备份成功！</string>
+    <string name="dbfile_export_error">备份桌面设置时出现错误！</string>
+
+    <string name="message_dialog_import_config">ADW将会重启！确认恢复桌面设置？</string>
+    <string name="dbfile_import_dialog">正在恢复桌面设置...</string>
+    <string name="dbfile_not_found">未找到桌面设置备份文件！</string>
+    <string name="dbfile_not_readable">桌面设置备份文件存在，但无法读取！</string>
+    <string name="dbfile_import_success">桌面设置恢复成功！</string>
+    <string name="dbfile_import_error">恢复桌面设置时出现错误！</string>
+
+    <!--  Desktop columns/Rows -->
+    <string name="pref_title_desktop_columns">桌面列数</string>
+    <string name="pref_summary_desktop_columns">选择要在桌面显示的列数</string>
+    <string name="pref_dialog_desktop_columns">选择要在桌面显示的列数</string>
+
+    <string name="pref_title_desktop_rows">桌面行数</string>
+    <string name="pref_summary_desktop_rows">选择要在桌面显示的行数</string>
+    <string name="pref_dialog_desktop_rows">选择要在桌面显示的行数</string>
+
+    <string name="pref_title_autosize_icons">自动伸展</string>
+    <string name="pref_summary_autosize_icons">自动伸展小插件和图标</string>
+
+
+    <string name="pref_title_drawer_labels">显示程序标签</string>
+    <string name="pref_summary_drawer_labels">在程序抽屉显示标签</string>
+    <string name="pref_title_fade_drawer_labels">程序标签渐现</string>
+    <string name="pref_summary_fade_drawer_labels">标签逐渐显示而不直接显示.会使用更多内存/CPU</string>
+
+    <string name="widget_config_dialog_title">小工具范围配置</string>
+    <string name="widget_config_dialog_summary">选择小工具的行数/列数?</string>
+    <string name="widget_columns">小工具列数</string>
+    <string name="widget_rows">小工具行数</string>
+
+    <string name="pref_title_screen_cache">使用桌面缓存</string>
+    <string name="pref_summary_screen_cache">更平滑的滚动，如果你设置了很多小工具则禁止该选项</string>
+	
+    <string name="pref_title_desktop_indicator">显示页面指示器</string>
+    <string name="pref_summary_desktop_indicator">滑动桌面时显示视觉提示</string>
+    <string name="pref_title_desktop_indicator_autohide">自动隐藏页面指示器</string>
+    <string name="pref_summary_desktop_indicator_autohide">经过一小段时间后隐藏页面指示器</string>
+    <string name="pref_title_desktop_indicator_type">指示器类型</string>
+    <string name="pref_summary_desktop_indicator_type">选择不同的指示器风格</string>
+
+    <!-- Category titles -->
+    <string name="pref_title_system_preferences">系统设置</string>
+    <string name="pref_summary_system_preferences">ADW系统设置</string>
+    <string name="pref_title_screens_layout_preferencecategory">桌面布局</string>
+    <string name="pref_title_screens_behaviour_preferencecategory">桌面特性</string>
+    <string name="pref_title_drawer_preferencecategory">程序托盘</string>
+    <string name="pref_title_drawer_visuals_preferencecategory">托盘视觉效果</string>
+    <string name="pref_title_highlights_preferencecategory">图标高亮</string>
+    <string name="pref_title_indicators_preferencecategory">页面指示器</string>
+
+    <string name="pref_title_system_persistent">常驻内存</string>
+    <string name="pref_summary_system_persistent">注意！启用此选项将禁止系统在内存不足时终止程序</string>
+	
+	<!-- Theme preferences -->
+	<string name="pref_title_theme_settings">主题设置</string>
+	<string name="pref_summary_theme_settings">选择主题</string>
+	<string name="pref_title_theme_package">选择您的主题</string>
+	<string name="pref_summary_theme_package">选择您的主题</string>
+	<string name="pref_title_theme_preview">主题预览</string>
+	<string name="pref_summary_theme_preview">预览选择的主题</string>
+	<string name="pref_title_theme_icons">使用主题图标</string>
+	<string name="pref_summary_theme_icons">不选择此项使用系统标准图标</string>
+	<string name="pref_themes_apply_theme">应用主题</string>
+	<string name="pref_themes_get_themes">获取更多主题</string>
+	
+	<string name="pref_title_wallpaper_scrolling">壁纸滚动</string>
+    <string name="pref_summary_wallpaper_scrolling">允许壁纸随着屏幕移动</string>
+    <string name="message_delete_desktop_screen">移除本屏幕及其所有内容？</string>
+    <string name="message_cannot_delete_desktop_screen">无法删除最后一个屏幕</string>
+    <string name="message_cannot_add_desktop_screen">无法添加更多屏幕</string>
+    <string name="message_cannot_swap_desktop_screen">无法互换屏幕</string>
+    
+    <string name="menu_edit">编辑</string>
+
+	<string name="pref_label_shirtcuts">自定义快捷方式</string>
+	<string name="pref_label_activities">活动列表</string>
+	<string name="shirtcut_header">选择您需要启动的应用程序。\n您也可以同时选择自定义图标。</string>
+	<string name="shirtcut_pick_activity">选择您的应用程序</string>
+	<string name="shirtcut_label">标签</string>
+	<string name="shirtcuts_select_picture">选择图片</string>
+	<string name="shirtcuts_crop_picture">选择并剪裁图片</string>
+	<string name="shirtcuts_icon_packs">ADW主题图标包</string>
+	<string name="shirtcuts_select_icon_type">选择图标类型</string>
+	<string name="shirtcuts_select_icon_pack">选择图标包</string>
+
+	<string name="selectAll">全选</string>
+	<string name="AppGroupAll">"所有程序"</string>
+	<string name="AppGroupAdd">"新目录"</string>
+	<string name="AppGroupDel">"移除目录"</string>
+    <string name="AppGroupDelLong">"确定要移除当前目录？"</string>
+	<string name="AppGroupChoose">"选择群组"</string>
+	<string name="AppGroupConfig">"设置群组"</string>
+	<string name="AppGroupRename">"新目录"</string>
+	<string name="AppGroupConfigError">"无法设置此群组"</string>
+	<string name="rename_group_title">新目录</string>
+	<string name="rename_group_label">目录名称</string>
+	
+	<string name="pref_title_adw_restart">重新启动ADW</string>
+	<string name="pref_summary_adw_restart">选择重新启动ADW主界面</string>
+	<string name="pref_title_adw_reset">重置ADW</string>
+	<string name="pref_summary_adw_reset">清除ADW主界面设置并重新启动</string>
+	
+	<string name="scrollable_api_required">此小工具需要更新您的ADW主界面。\n请及时更新或者联系小工具开发者</string>
+
+    <string name="pref_title_drawer_navigate_catalogs">目录导航</string>
+    <string name="pref_summary_drawer_navigate_catalogs">显示应用程序目录导航按钮</string>
+    <string name="pref_title_drawer_ungroup_catalog">只显示已分类目录</string>
+    <string name="pref_summary_drawer_ungroup_catalog">不显示所有程序，只显示已分类目录</string>
+    <string name="pref_title_drawer_show_catalogs">显示目录标题</string>
+    <string name="pref_summary_drawer_show_catalogs">在托盘显示目录标题</string>
+
+    <string name="pref_title_notif_receiver">显示通知</string>
+    <string name="pref_summary_notif_receiver">启用全局通知计数</string>
+
+    <string name="pref_title_notif_size">气泡字体大小</string>
+    <string name="pref_summary_notif_size">选择通知气泡字体大小</string>
+    <string name="pref_dialog_notif_size">选择通知气泡字体大小</string>
+
+    <string name="pref_title_ab_preferencecategory">主工具栏</string>
+    <string name="pref_title_main_dock_style">主工具栏式样</string>
+    <string name="pref_summary_main_dock_style">选择主工具栏式样</string>
+    <string name="pref_title_behaviour_preferences">常规特性</string>
+    <string name="pref_summary_behaviour_preferences">应用程序常规特性设置</string>
+    <string name="pref_title_drawer_style">程序托盘式样</string>
+    <string name="pref_summary_drawer_style">切换不同托盘实现方式</string>
+    <string name="pref_title_dockbar_preferencecategory">隐藏扩展栏</string>
+    <string name="pref_title_ab_tint">主工具栏图标着色</string>
+    <string name="pref_summary_ab_tint">启用主工具栏图标着色</string>
+    <string name="pref_title_ab_tint_color">着色色调</string>
+    <string name="pref_summary_ab_tint_color">选择着色图标色调</string>
+    <string name="pref_title_deletezone_preferencecategory">垃圾桶</string>
+    <string name="pref_title_deletezone_style">垃圾桶位置</string>
+    <string name="pref_summary_deletezone_style">更改垃圾桶位置</string>
+    <string name="pref_title_close_apps_dockbar">关闭程序托盘</string>
+    <string name="pref_summary_close_apps_dockbar">当扩展栏可见并长按条目时关闭程序托盘</string>
+    <string name="menu_lock">桌面锁定</string>
+    <string name="menu_unlock">桌面解锁</string>
+
+
+</resources>

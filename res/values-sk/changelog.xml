@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="adw_changelog">
+-&lt;b>POZNÁMKA:&lt;/b> Pokiaľ sa motív zobrazuje chybne, kontaktujte vývojára motívu, aby ho aktualizoval!!! &lt;br>&lt;br>
+-&lt;b>POZNÁMKA:&lt;/b> Pre pridanie/odobratie plôch stlačte PONUKA/Zmeniť&lt;br>&lt;br>
+-&lt;b>POZNÁMKA:&lt;/b> Pre povolenie ORIENTÁCIE je potrebné zakázať PERZISTENCIU.&lt;br>&lt;br>
+-&lt;b>PAMÄTAJTE:&lt;/b> Môžete skryť aplikácie zo zložky použitím vlastných katalógov (stlačte klávesu MENU pri otvorenej zložke) &lt;br>&lt;br>
+
+&lt;b>Verzia 1.3.6:&lt;/b>&lt;br>
+&lt;b>--------------&lt;/b>&lt;br>
+- Možnosť zamknúť/odomknúť plochu (MENU/Viac). &lt;br>
+- Drobné opravy pre zabránenie FC. &lt;br>
+&lt;b>Verzia 1.3.5:&lt;/b>&lt;br>
+&lt;b>--------------&lt;/b>&lt;br>
+- Možnosť zvoliť rôzne pozície/chovanie pro kôš. &lt;br>
+- Okno rýchlych akcií pri dlhém stlačení na položke. &lt;br>
+- Podpora presunu a rýchlych akcií na hlavnom doku. &lt;br>
+- Pridaná položka Akcia spúšťača do hlavnej ponuky Pridať. &lt;br>
+- Viacero opráv. &lt;br>
+</string>
+</resources>

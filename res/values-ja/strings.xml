@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="5865630159700533006">"ADW.Launcher"</string>
+    <string name="folder_name" msgid="4588446541914685904">"フォルダ"</string>
+    <string name="chooser_wallpaper" msgid="5988031014201479733">"壁紙を選択"</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"壁紙に設定"</string>
+    <string name="activity_not_found" msgid="3571057450431950427">"アプリケーションがインストールされていません。"</string>
+    <string name="configure_wallpaper" msgid="2820186271419674623">"設定..."</string>
+    <string name="rename_folder_label" msgid="5646236631298452787">"フォルダ名"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"フォルダ名を変更"</string>
+    <string name="rename_action" msgid="6016003384693240896">"OK"</string>
+    <string name="cancel_action" msgid="3811860427489435048">"キャンセル"</string>
+    <string name="menu_item_add_item" msgid="6233177331075781114">"ホーム画面に追加"</string>
+    <string name="group_applications" msgid="4118484163419674240">"アプリケーション"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"ショートカット"</string>
+    <string name="launcher_actions">"ランチャーアクション"</string>
+    <string name="group_search" msgid="5905328940867162196">"検索"</string>
+    <string name="group_folder" msgid="5143593791798929193">"新しいフォルダ"</string>
+    <string name="group_live_folders" msgid="2664945399140647217">"フォルダ"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"ウィジェット"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"壁紙"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"ホーム画面に空きスペースがありません。"</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"ショートカット「<xliff:g id="NAME">%s</xliff:g>」を作成しました。"</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"ショートカット「<xliff:g id="NAME">%s</xliff:g>」を削除しました。"</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"ショートカット「<xliff:g id="NAME">%s</xliff:g>」は既に存在します。"</string>
+    <string name="title_select_shortcut" msgid="2858897527672831763">"ショートカットを選択"</string>
+    <string name="title_select_live_folder" msgid="3753447798805166749">"フォルダの選択"</string>
+    <string name="menu_add" msgid="3065046628354640854">"追加"</string>
+    <string name="menu_delete">"削除"</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"壁紙"</string>
+    <string name="menu_search" msgid="4826514464423239041">"検索"</string>
+    <string name="menu_settings" msgid="6233960148378443661">"設定"</string>
+    <string name="menu_adw_settings">ADW設定</string>
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"ショートカットのインストール"</string>
+    <string name="permdesc_install_shortcut" msgid="7429365847558984148">"ユーザー操作なしでショートカットの追加をアプリケーションに許可します。"</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"ショートカットのアンインストール"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"ユーザー操作なしでショートカットの削除をアプリケーションに許可します。"</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"ホーム設定とショートカットの読み取り"</string>
+    <string name="permdesc_read_settings" msgid="8377434937176025492">"ホームの設定とショートカットの読み取りをアプリケーションに許可します。"</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"ホームの設定とショートカットの書き込み"</string>
+    <string name="permdesc_write_settings" msgid="1098648778383349818">"ホームの設定とショートカットの変更をアプリケーションに許可します。"</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"ウィジェットを表示できません"</string>
+
+    <!-- ADW Settings -->
+    <string name="pref_label_settings">ADW設定</string>
+
+    <!-- Screen preferences -->
+    <string name="pref_title_screen_preferences">スクリーン設定</string>
+    <string name="pref_summary_screen_preferences">スクリーンの数やデフォルト等</string>
+
+    <string name="pref_title_wallpaper_hack">壁紙ハック</string>
+    <string name="pref_summary_wallpaper_hack">強制終了する場合はオフに,改良を維持するにはオンにする.</string>
+
+    <string name="pref_title_orientation_sensor">ホームの向き</string>
+    <string name="pref_summary_orientation_sensor">希望するホームの向きを選択</string>
+
+    <string name="pref_title_hide_statusbar">ステータスバーを隠す</string>
+    <string name="pref_summary_hide_statusbar">ステータスバーを隠す</string>
+
+    <string name="pref_title_looping">スクリーンループ</string>
+    <string name="pref_summary_looping">ワークスペースをループできるようにする</string>
+
+    <string name="pref_title_default_screen">デフォルトスクリーン</string>
+
+    <string name="pref_title_desktop_scrolling_speed">スクロール速度</string>
+    <string name="pref_summary_desktop_scrolling_speed">デスクトップスクリーンを飛ばすときの速度を設定する</string>
+    <string name="pref_dialog_desktop_scrolling_speed">低い値を設定するとより速くスクリーンを飛ばします</string>
+    <string name="pref_title_desktop_overshoot">オーバーシュート</string>
+    <string name="pref_summary_desktop_overshoot">デスクトップのスクロールで行き過ぎた場合にスクリーンを弾ませる</string>
+    <string name="pref_dialog_desktop_overshoot">0に設定するとオーバーシュートを無効にできます</string>
+    <string name="pref_title_desktop_transition">トランジション</string>
+    <string name="pref_summary_desktop_transition">デスクトップを移動するときのアニメーション</string>
+
+    <!-- Drawer Settings -->
+    <string name="pref_title_drawer_settings">ドロワー設定</string>
+    <string name="pref_summary_drawer_settings">アプリケーションドロワーのグリッド設定</string>
+
+    <string name="pref_title_zoom_effect_speed">ズームエフェクト速度</string>
+    <string name="pref_summary_zoom_effect_speed">ミリ秒でズームエフェクトの時間を設定</string>
+    <string name="pref_dialog_zoom_effect_speed">ミリ秒でズームエフェクトの時間を設定</string>
+
+    <string name="pref_title_page_horizontal_margin">水平マージン</string>
+    <string name="pref_summary_page_horizontal_margin">ドロワーのページ間水平マージンを設定する</string>
+    <string name="pref_dialog_page_horizontal_margin">ドロワーのページ間水平マージンを設定する</string>
+
+    <string name="pref_title_animated_drawer">アニメーションドロワー</string>
+    <string name="pref_summary_animated_drawer">アプリケーションドロワーをアニメーション表示する</string>
+
+    <string name="pref_title_drawer_columns_portrait">縦画面のドロワー列数</string>
+    <string name="pref_summary_drawer_columns_portrait">縦画面時のドロワー列数を選択する</string>
+    <string name="pref_dialog_drawer_columns_portrait">縦画面時のドロワー列数を選択する</string>
+
+    <string name="pref_title_drawer_rows_portrait">縦画面のドロワー行数</string>
+    <string name="pref_summary_drawer_rows_portrait">縦画面時のドロワー行数を選択する</string>
+    <string name="pref_dialog_drawer_rows_portrait">縦画面時のドロワー行数を選択する</string>
+
+    <string name="pref_title_drawer_columns_landscape">横画面のドロワー列数</string>
+    <string name="pref_summary_drawer_columns_landscape">横画面時のドロワー列数を選択する</string>
+    <string name="pref_dialog_drawer_columns_landscape">横画面のドロワー列数を選択する</string>
+
+    <string name="pref_title_drawer_rows_landscape">横画面のドロワー行数</string>
+    <string name="pref_summary_drawer_rows_landscape">横画面時のドロワー行数を選択する</string>
+    <string name="pref_dialog_drawer_rows_landscape">横画面時のドロワー行数を選択する</string>
+
+    <!-- Previews preferences -->
+    <string name="pref_title_sense_previews">Senseプレビュー</string>
+    <string name="pref_summary_sense_previews">Sense UIのようなデスクトッププレビューを使用する</string>
+
+    <!-- Button preferences -->
+    <string name="pref_title_ui_settings">UI設定</string>
+    <string name="pref_summary_ui_settings">ユーザインタフェースの設定</string>
+
+    <string name="pref_title_home_button_binding">ホームボタン</string>
+    <string name="pref_summary_home_button_binding">ホームボタンを押したときのアクションを設定する</string>
+
+    <string name="pref_title_swipedown_actions">スワイプダウンアクション</string>
+    <string name="pref_summary_swipedown_actions">スワイプダウンしたときのアクションを設定する</string>
+
+    <string name="pref_title_swipeup_actions">スワイプアップアクション</string>
+    <string name="pref_summary_swipeup_actions">スワイプアップしたときのアクションを設定する</string>
+
+    <string name="pref_title_doubletap_actions">ダブルタップアクション</string>
+    <string name="pref_summary_doubletap_actions">ダブルタップしたときのアクションを設定する</string>
+
+    <string name="pref_title_desktop_dots">デスクトップドット</string>
+    <string name="pref_summary_desktop_dots">Nexusのようなページめくりのドットを表示する</string>
+
+    <string name="pref_title_dockbar">ドックバー</string>
+    <string name="pref_summary_dockbar">ショートカットを設置するための新しいドックバーを有効にする</string>
+
+    <string name="pref_title_closing_dockbar">ドックバーを閉じる</string>
+    <string name="pref_summary_closing_dockbar">アプリケーションを起動したら自動的にドックバーを閉じる</string>
+
+    <string name="pref_title_closing_folder">フォルダを閉じる</string>
+    <string name="pref_summary_closing_folder">アプリケーションを起動したら自動的にフォルダを閉じる</string>
+
+    <string name="pref_title_ab_scale_factor">アクションボタンの縮尺</string>
+    <string name="pref_summary_ab_scale_factor">アクションボタンアイコンの縮尺を設定する</string>
+    <string name="pref_dialog_ab_scale_factor">アクションボタンアイコンの縮尺を設定する</string>
+
+    <string name="pref_title_hide_ab_bg">アクションボタンの背景を隠す</string>
+    <string name="pref_summary_hide_ab_bg">アクションボタン(LAB,RAB)の背景を表示しない</string>
+
+    <string name="pref_title_lock_ab">アクションボタンをロックする</string>
+    <string name="pref_summary_lock_ab">アクションボタンを編集させない</string>
+
+    <string name="pref_title_hide_icon_labels">アイコンラベルを隠す</string>
+    <string name="pref_summary_hide_icon_labels">デスクトップアイコンのラベルを表示しない</string>
+
+    <string name="pref_title_build_info">ビルド情報</string>
+    <string name="pref_title_adw_version">ADW バージョン</string>
+
+    <string name="pref_title_icon_highlights">ハイライトカラー</string>
+    <string name="pref_summary_icon_highlights">アイコンを選択したときの色を選択</string>
+
+    <string name="pref_title_icon_highlights_focus">フォーカスカラー</string>
+    <string name="pref_summary_icon_highlights_focus">フォーカスしたアイコンのカラー</string>
+    <string name="pref_title_new_selectors">新しいアイコンセレクタ</string>
+    <string name="pref_summary_new_selectors">以前のものにするにはオフにする</string>
+    <string name="pref_title_drawer_color">背景色</string>
+    <string name="pref_summary_drawer_color">ドロワーの背景色を設定</string>
+
+    <string name="pref_dialog_title_color_picker">色を選択</string>
+    <string name="pref_dialog_message_color_picker">中央をタップして確定\n戻るボタンでキャンセル</string>
+    <string name="pref_dialog_color_picker_alpha">不透明度</string>
+    <string name="drop_to_uninstall">ドロップしてアンインストール</string>
+    <string name="toast_widgets_not_supported">ウィジェットはサポートしてません...ゴメン :-)</string>
+    <string name="toast_unknown_item">不明なアイテムです。 不明なアイテムは追加できません :-)</string>
+    <string name="toast_no_application_def">アプリケーションはなにも定義されてません。何かここにドロップしてください :)</string>
+    <string name="pref_message_restart_normal">この設定を変更するとランチャーは再起動されます。</string>
+    <string name="pref_message_restart_froyo">この設定を変更するとランチャーは再起動されます。</string>
+
+    <string name="pref_title_import_export">バックアップ/リストア</string>
+    <string name="pref_title_xml">ADW設定</string>
+    <string name="pref_title_xml_import">ADW設定のリストア</string>
+    <string name="pref_summary_xml_import">/sdcard/adw_settings.xmlからリストアする</string>
+    <string name="pref_title_xml_export">ADW設定のバックアップ</string>
+    <string name="pref_summary_xml_export">/sdcard/adw_settings.xmlにバックアップする</string>
+
+    <string name="pref_title_db">デスクトップ設定</string>
+    <string name="pref_title_db_import">デスクトップ設定のリストア</string>
+    <string name="pref_summary_db_import">/sdcard/adw_launcher.dbからリストアする</string>
+    <string name="pref_title_db_export">デスクトップ設定のバックアップ</string>
+    <string name="pref_summary_db_export">/sdcard/adw_launcher.dbにバックアップする</string>
+
+    <string name="title_dialog_xml">ADW.Launcher設定</string>
+    <string name="import_export_sdcard_unmounted">SDカードがマウントされてません!</string>
+
+    <!-- XML Import/Export strings -->
+    <string name="message_dialog_export">ADW設定をバックアップしますか? 既存のファイルは上書きされます.</string>
+    <string name="xml_export_dialog">ADW設定をバックアップ中...</string>
+    <string name="xml_export_success">ADW設定のバックアップに成功しました!</string>
+    <string name="xml_export_error">ADW設定のバックアップに失敗しました!</string>    
+    
+    <string name="message_dialog_import">ADW設定をリストアしますか? ADW.Launcherは再起動されます.</string>
+    <string name="xml_import_dialog">ADW設定をリストア中...</string>  
+    <string name="xml_file_not_found">バックアップファイルが見つかりません!</string>
+    <string name="xml_not_readable">バックアップファイルを読み込めません!</string>
+    <string name="xml_import_success">ADW設定のリストアに成功しました!</string>
+    <string name="xml_import_error">ADW設定のリストアに失敗しました!</string>
+
+    <!-- Config Import/Export strings -->
+    <string name="message_dialog_export_config">デスクトップ設定をバックアップしますか? 既存のファイルは上書きされます.</string>
+    <string name="dbfile_export_dialog">デスクトップ設定をバックアップ中...</string>
+    <string name="dbfile_export_success">設定のバックアップに成功しました!</string>
+    <string name="dbfile_export_error">設定のバックアップに失敗しました!</string>
+
+    <string name="message_dialog_import_config">デスクトップ設定をリストアしますか? ADW.Launcherは再起動されます.</string>
+    <string name="dbfile_import_dialog">デスクトップ設定をリストア中...</string>
+    <string name="dbfile_not_found">バックアップファイルが見つかりません!</string>
+    <string name="dbfile_not_readable">バックアップファイルを読み込めません!</string>
+    <string name="dbfile_import_success">設定のリストアに成功しました!</string>
+    <string name="dbfile_import_error">設定のリストアに失敗しました!</string>
+
+    <!--  Desktop columns/Rows -->
+    <string name="pref_title_desktop_columns">デスクトップの列数</string>
+    <string name="pref_summary_desktop_columns">デスクトップで使う列の数を選択する</string>
+    <string name="pref_dialog_desktop_columns">デスクトップで使う列の数を選択する</string>
+
+    <string name="pref_title_desktop_rows">デスクトップの行数</string>
+    <string name="pref_summary_desktop_rows">デスクトップで使う行の数を選択する</string>
+    <string name="pref_dialog_desktop_rows">デスクトップで使う行の数を選択する</string>
+
+    <string name="pref_title_autosize_icons">自動伸縮</string>
+    <string name="pref_summary_autosize_icons">アイコンやウィジェットが重ならないように伸縮させる</string>
+
+
+    <string name="pref_title_drawer_labels">アプリラベル表示</string>
+    <string name="pref_summary_drawer_labels">アプリケーションドロワーでアプリラベルを表示する</string>
+    <string name="pref_title_fade_drawer_labels">フェードラベル</string>
+    <string name="pref_summary_fade_drawer_labels">ラベルをフェードして表示する. CPUやメモリを消費します.</string>
+
+    <string name="widget_config_dialog_title">ウィジェットスキャン設定</string>
+    <string name="widget_config_dialog_summary">ウィジェットが使用する行数/列数を設定</string>
+    <string name="widget_columns">列数</string>
+    <string name="widget_rows">行数</string>
+
+    <string name="pref_title_screen_cache">スクリーンキャッシュ</string>
+    <string name="pref_summary_screen_cache">スクロールを滑らかにする. たくさんのウィジェットを使用している場合はオフに.</string>
+
+    <string name="pref_title_desktop_indicator">デスクトップインジケータ</string>
+    <string name="pref_summary_desktop_indicator">デスクトップスクロールのヒントのためにインジケータを表示する</string>
+    <string name="pref_title_desktop_indicator_autohide">インジケータを自動消去</string>
+    <string name="pref_summary_desktop_indicator_autohide">少し時間がたったらインジケータを自動的に消去する</string>
+    <string name="pref_title_desktop_indicator_type">インジケータタイプ</string>
+    <string name="pref_summary_desktop_indicator_type">インジケータタイプを選択する.</string>
+
+    <!-- Category titles -->
+    <string name="pref_title_system_preferences">システム設定</string>
+    <string name="pref_summary_system_preferences">ADW.Launcherの一般的なシステム設定</string>
+    <string name="pref_title_screens_layout_preferencecategory">デスクトップレイアウト</string>
+    <string name="pref_title_screens_behaviour_preferencecategory">デスクトップの挙動</string>
+    <string name="pref_title_drawer_preferencecategory">アプリケーションドロワー</string>
+    <string name="pref_title_drawer_visuals_preferencecategory">アプリケーションドロワーの見た目</string>
+    <string name="pref_title_highlights_preferencecategory">アイコンハイライト</string>
+    <string name="pref_title_indicators_preferencecategory">スクリーンインジケータ</string>
+
+    <string name="pref_title_system_persistent">システムに常駐</string>
+    <string name="pref_summary_system_persistent">危険: システムからランチャーが終了されるのを防ぐ</string>
+    <!-- Theme preferences -->
+    <string name="pref_title_theme_settings">テーマ設定</string>
+    <string name="pref_summary_theme_settings">ADW.Launcherのテーマを選択</string>
+    <string name="pref_title_theme_package">使用するテーマ</string>
+    <string name="pref_summary_theme_package">使用するADW.Launcherのテーマを選択</string>
+    <string name="pref_title_theme_preview">プレビュー</string>
+    <string name="pref_summary_theme_preview">選択したテーマのプレビュー</string>
+    <string name="pref_title_theme_icons">アイコンにテーマを使用する</string>
+    <string name="pref_summary_theme_icons">標準のアイコンを使用するにはオフにする</string>
+    <string name="pref_themes_apply_theme">テーマを適用!</string>
+    <string name="pref_themes_get_themes">テーマを入手!</string>
+
+    <string name="pref_title_wallpaper_scrolling">壁紙スクロール</string>
+    <string name="pref_summary_wallpaper_scrolling">スクリーンを移動するときに壁紙をスクロールさせる</string>
+    <string name="message_delete_desktop_screen">このスクリーンと内容をすべて削除しますか?</string>
+    <string name="message_cannot_delete_desktop_screen">最後のスクリーンは削除できません</string>
+    <string name="message_cannot_add_desktop_screen">これ以上スクリーンの追加はできません</string>
+    <string name="message_cannot_swap_desktop_screen">スクリーンの入れ替えはできません</string>
+    
+    <string name="menu_edit">編集</string>
+
+    <string name="pref_label_shirtcuts">カスタムショートカット</string>
+    <string name="pref_label_activities">アクティビティ</string>
+    <string name="shirtcut_header">起動したいアプリケーションのアクティビティを選択してください。\nアイコンをカスタム設定することもできます。</string>
+    <string name="shirtcut_pick_activity">アクティビティを選択</string>
+    <string name="shirtcut_label">ラベル</string>
+    <string name="shirtcuts_select_picture">画像を選択</string>
+    <string name="shirtcuts_crop_picture">画像の選択と切り抜き</string>
+    <string name="shirtcuts_icon_packs">ADWテーマアイコンパック</string>
+    <string name="shirtcuts_select_icon_type">アイコンタイプを選択</string>
+    <string name="shirtcuts_select_icon_pack">アイコンパックを選択</string>
+    <string name="shirtcuts_restore_original">オリジナルに戻す</string>
+
+    <string name="sortType">並び替え\:</string>
+    <string name="selectAll">すべて選択</string>
+    <string name="AppGroupAll">"すべて"</string>
+    <string name="AppGroupUn">"未設定"</string>
+    <string name="AppGroupAdd">"新規グループ"</string>
+    <string name="AppGroupDel">"グループを削除"</string>
+    <string name="AppGroupDelLong">"現在のグループを\n本当に削除しますか?"</string>
+    <string name="AppGroupChoose">"グループを選択"</string>
+    <string name="AppGroupConfig">"グループを設定"</string>
+    <string name="AppGroupRename">"新しいグループ"</string>
+    <string name="AppGroupConfigError">"このグループは設定できません"</string>
+    <string name="rename_group_title">新しいグループ</string>
+    <string name="rename_group_label">グループ名</string>
+    <string name="show_catalog">グループを表示 \"%s\"</string>
+
+    <string name="pref_title_adw_restart">ADWの再起動</string>
+    <string name="pref_summary_adw_restart">ADW.Launcherを終了し、再起動します。</string>
+    <string name="pref_title_adw_reset">ADWをリセット</string>
+    <string name="pref_summary_adw_reset">ADW.Launcherの設定を削除し、再起動します。</string>
+
+    <string name="scrollable_api_required">このウィジェットは更新されたADW.Launcherが必要です。\n更新するか、ウィジェットの開発者にお問い合せください。</string>
+
+    <string name="pref_title_drawer_navigate_catalogs">グループナビゲーション</string>
+    <string name="pref_summary_drawer_navigate_catalogs">アプリケーショングループをナビゲートするボタンを表示する</string>
+    <string name="pref_title_drawer_ungroup_catalog">グループのみ</string>
+    <string name="pref_summary_drawer_ungroup_catalog">すべてのカテゴリを削除してグループだけを使う</string>
+    <string name="pref_title_drawer_show_catalogs">グループのタイトルを表示</string>
+    <string name="pref_summary_drawer_show_catalogs">ドロワーにグループのタイトルを表示する</string>
+
+    <string name="pref_title_notif_receiver">通知を表示</string>
+    <string name="pref_summary_notif_receiver">グローバル通知カウンタを有効にする</string>
+    <string name="pref_title_notif_size">バブルフォントサイズ</string>
+    <string name="pref_summary_notif_size">通知バブルのフォントサイズを選択</string>
+    <string name="pref_dialog_notif_size">通知バブルのフォントサイズを選択</string>
+
+    <string name="pref_title_ab_preferencecategory">メインドック</string>
+    <string name="pref_title_main_dock_style">メインドックスタイル</string>
+    <string name="pref_summary_main_dock_style">メインドックのスタイルを選択</string>
+    <string name="pref_title_behaviour_preferences">一般的な挙動</string>
+    <string name="pref_summary_behaviour_preferences">一般的なアプリの挙動の設定</string>
+    <string name="pref_title_drawer_style">ドロワースタイル</string>
+    <string name="pref_summary_drawer_style">異なるドロワー実装をスイッチする</string>
+    <string name="pref_title_dockbar_preferencecategory">隠れるドックバー</string>
+    <string name="pref_title_ab_tint">ドックアイコンを単色にする</string>
+    <string name="pref_summary_ab_tint">ドックに設置するアイコンを単色で表示する</string>
+    <string name="pref_title_ab_tint_color">単色化する色</string>
+    <string name="pref_summary_ab_tint_color">アイコンを単色表示する色を変更する</string>
+    <string name="pref_title_deletezone_preferencecategory">ゴミ箱</string>
+    <string name="pref_title_deletezone_style">ゴミ箱の位置</string>
+    <string name="pref_summary_deletezone_style">ゴミ箱の位置を変更する</string>
+    <string name="pref_title_close_apps_dockbar">ドロワーを閉じる</string>
+    <string name="pref_summary_close_apps_dockbar">ドックバーを表示しているときアイテムを長押しするとアプリケーションドロワーを閉じる</string>
+    <string name="menu_lock">ロック</string>
+    <string name="menu_unlock">アンロック</string>
+</resources>

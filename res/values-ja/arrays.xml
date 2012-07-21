@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+                <item>NONE</item>
+                <item>デフォルトデスクトップに移動</item>
+                <item>デフォルトデスクトップに移動/プレビュー表示</item>
+                <item>プレビュー表示</item>
+                <item>ドロワーを開く/閉じる</item>
+                <item>ステータスバーの表示/非表示</item>
+                <item>通知を開く/閉じる</item>
+                <item>デフォルトデスクトップに移動/通知を開く</item>
+                <item>ドックバーを開く/閉じる</item>
+                <item>アプリを起動...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>上部にドットページ</item>
+                <item>上部にスライディングページ</item>
+                <item>下部にスライディングページ</item>
+       </string-array>
+       <string-array name="desktop_transition_entries">
+                <item>ノーマル</item>
+                <item>回転</item>
+                <item>ページ</item>
+                <item>キューブ</item>
+                <item>散布</item>
+       </string-array>
+       <string-array name="home_orientation_entries">
+                <item>自動/センサー</item>
+                <item>ポートレイト</item>
+                <item>ランドスケープ</item>
+       </string-array>
+       <string-array name="screen_cache_entries">
+                <item>低品質</item>
+                <item>自動</item>
+                <item>無効</item>
+       </string-array>
+       <string-array name="main_dock_entries">
+                <item>なし(デスクトップを広げる)</item>
+                <item>3アイコン</item>
+                <item>5アイコン</item>
+                <item>1アイコン</item>
+       </string-array>
+       <string-array name="deletezone_entries">
+                <item>なし</item>
+                <item>上部</item>
+                <item>下部</item>
+                <item>上部(デスクトップを詰める)</item>
+                <item>下部(デスクトップを詰める)</item>
+       </string-array>
+       <string-array name="app_drawer_style_entries">
+                <item>縦方向のプレーン</item>
+                <item>横方向のページ</item>
+       </string-array>
+       <string-array name="catalog_sorttype_entries">
+                <item>名前</item>
+                <item>日付</item>
+       </string-array>
+</resources>

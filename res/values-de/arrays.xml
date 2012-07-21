@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string-array name="menu_binding_entries">
+    <item>Nichts</item>
+    <item>Standard-Bildschirm</item>
+    <item>Standard-Bildschirm und Vorschauen zeigen</item>
+    <item>Vorschauen zeigen</item>
+    <item>Öffne/Schliesse den Drawer</item>
+    <item>Zeige/Verberge die Statuszeile</item>
+    <item>Öffne/Schliesse Benachrichtigungen</item>
+    <item>Zu Standardbildschirm/ Öffne Benachrichtigungen</item>
+    <item>Öffne/Schliesse Dockzeile</item>
+    <item>Anwendung starten...</item>
+  </string-array>
+
+  <string-array name="desktop_indicator_entries">
+    <item>Desktop-Punkte oben</item>
+    <item>Laufender Balken oben</item>
+    <item>Laufender Balken unten</item>
+  </string-array>
+
+  <string-array name="desktop_transition_entries">
+    <item>Normal</item>
+    <item>Rotieren</item>
+    <item>Blättern</item>
+    <item>Würfel</item>
+    <item>Streuen</item>
+  </string-array>
+
+  <string-array name="home_orientation_entries">
+    <item>Autom./Sensor</item>
+    <item>Hochformat</item>
+    <item>Querformat</item>
+  </string-array>
+
+  <string-array name="screen_cache_entries">
+    <item>Geringe Qualität</item>
+    <item>Automatisch</item>
+    <item>Deaktiviert</item>
+  </string-array> 
+
+  <string-array name="main_dock_entries">
+    <item>Keine (Größerer Desktop)</item>
+    <item>3 Icons</item>
+    <item>5 Icons</item>
+    <item>1 Icon</item>
+  </string-array>
+
+  <string-array name="deletezone_entries">
+         <item>Nirgends</item>
+         <item>Oben</item>
+         <item>Unten</item>
+         <item>Oben (Verkleinert Desktop)</item>
+         <item>Unten (Verkleinert Desktop)</item>
+  </string-array>
+
+  <string-array name="app_drawer_style_entries">
+    <item>Vertikal</item>
+    <item>Horizontal mit Blättern</item>
+  </string-array>
+
+  <string-array name="catalog_sorttype_entries">
+    <item>Name</item>
+    <item>Alter</item>
+  </string-array>
+
+</resources>

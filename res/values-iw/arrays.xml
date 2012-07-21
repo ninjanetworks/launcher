@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+       			<item>ריק</item>
+                <item>העבר לשולחן העבודה</item>
+                <item>העבר לשולחן העבודה/הראה תצוגה מקדמת</item>
+                <item>הראה תצוגה מקדמת</item>
+                <item>פתח/סגור מגירת אפליקציות</item>
+                <item>הראה/החבא שורת משימות</item>
+                <item>פתח/סגור התראות</item>
+                <item>העבר לשולחן העבודה/פתח התראות</item>
+                <item>פתח/סגור שורת עגינה</item>
+                <item>פתח אפליקצייה...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>Dot paginator top</item>
+                <item>Sliding paginator top</item>
+                <item>Sliding paginator bottom</item>
+       </string-array>
+
+       <!-- Do not translate. -->
+       <string-array name="menu_binding_values">
+       			<item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+                <item>5</item>
+                <item>6</item>
+                <item>7</item>
+                <item>8</item>
+                <item>9</item>
+       </string-array>
+       <string-array name="desktop_indicator_values">
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+       </string-array>
+</resources>

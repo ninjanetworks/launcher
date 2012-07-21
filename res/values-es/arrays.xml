@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+                <item>Desactivado</item>
+                <item>Ir al escritorio por defecto</item>
+                <item>Ir al escritorio por defecto/mostrar previsualización</item>
+                <item>Mostrar previsualización</item>
+                <item>Abre/cierra la lista de apps</item>
+                <item>Muestra/oculta la barra de estado</item>
+                <item>Abre/cierra las notificaciones</item>
+                <item>Ir al escritorio por defecto/abrir las notificaciones</item>
+                <item>Abre/cierra la Barra de Iconos</item>
+                <item>Elige una App...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>Puntos arriba</item>
+                <item>Líneas arriba</item>
+                <item>Líneas abajo</item>
+       </string-array>
+       <string-array name="desktop_transition_entries">
+                <item>Normal</item>
+                <item>Rotación</item>
+                <item>Página</item>
+                <item>Cubo</item>
+                <item>Dispersión</item>
+       </string-array>
+       <string-array name="home_orientation_entries">
+                <item>Automático/sensor</item>
+                <item>Vertical</item>
+                <item>Horizontal</item>
+       </string-array>       
+       <string-array name="screen_cache_entries">
+                <item>Baja calidad</item>
+                <item>Automático</item>
+                <item>Desactivado</item>
+       </string-array>
+       <string-array name="main_dock_entries">
+                <item>Ocultar (expandir escritorio)</item>
+                <item>3 Iconos</item>
+                <item>5 Iconos</item>
+                <item>1 Icono</item>
+       </string-array>
+       <string-array name="deletezone_entries">
+                <item>Ninguno</item>
+                <item>Superior</item>
+                <item>Inferior</item>
+                <item>Superior (reducir escritorio)</item>
+                <item>Inferior (reducir escritorio)</item>
+       </string-array>
+       <string-array name="app_drawer_style_entries">
+                <item>Vertical</item>
+                <item>Horizontal paginado</item>
+       </string-array>
+       <string-array name="catalog_sorttype_entries">
+                <item>Nombre</item>
+                <item>Antigüedad</item>
+       </string-array>
+
+</resources>

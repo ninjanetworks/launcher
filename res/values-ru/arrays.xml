@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+		<item>Отключено</item>
+                <item>Рабочий стол по умолчанию</item>
+                <item>Рабочий стол по умолчанию/обзор</item>
+                <item>Обзор</item>
+                <item>Открыть/закрыть главное меню</item>
+                <item>Скрыть/показать строку статуса</item>
+                <item>Открыть/закрыть уведомления</item>
+                <item>Рабочий стол по умолчанию/уведомления</item>
+                <item>Открыть/закрыть выдвижную панель</item>
+                <item>Открыть приложение:</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>Точки вверху</item>
+                <item>Полоска вверху</item>
+                <item>Полоска внизу</item>
+       </string-array>
+       <string-array name="desktop_transition_entries">
+                <item>Обычно</item>
+                <item>Вращение</item>
+                <item>Пролистывание</item>
+                <item>Куб</item>
+                <item>Разброс</item>
+       </string-array>
+       <string-array name="home_orientation_entries">
+                <item>Авто/датчик</item>
+                <item>Книжная</item>
+                <item>Альбомная</item>
+       </string-array>
+       <string-array name="screen_cache_entries">
+                <item>Низкое качество</item>
+                <item>Автоматически</item>
+                <item>Отключить</item>
+       </string-array>
+       <string-array name="main_dock_entries">
+                <item>Нет (расширить раб. стол)</item>
+                <item>3 иконки</item>
+                <item>5 иконок</item>
+                <item>1 иконка</item>
+       </string-array>
+       <string-array name="deletezone_entries">
+                <item>Нет</item>
+                <item>Наверху</item>
+                <item>Внизу</item>
+                <item>Наверху (Сократить раб. стол)</item>
+                <item>Внизу (Сократить раб. стол)</item>
+       </string-array>
+       <string-array name="app_drawer_style_entries">
+                <item>Вертикальная плоскость</item>
+                <item>Горизонтальная разбивка</item>
+       </string-array>
+       <string-array name="catalog_sorttype_entries">
+                <item>Имени</item>
+                <item>Дате установки</item>
+       </string-array>
+</resources>

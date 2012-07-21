@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+       			<item>NONE</item>
+                <item>Μετακινηση στην κυρια οθονη</item>
+                <item>μετακινηση στην κυρια οθονη/εμφανιση προεπισκοπησης</item>
+                <item>εμφανιση προεπισκοπησης</item>
+                <item>ανοιγμα κλυσιμο συρταριου εφαρμογων</item>
+                <item>εμφανιση/κρυψιμο status bar</item>
+                <item>Open/close notifications</item>
+                <item>Move to default desktop/Open notifications</item>
+                <item>Open/close DockBar</item>
+                <item>Open App...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>Dot paginator top</item>
+                <item>Sliding paginator top</item>
+                <item>Sliding paginator bottom</item>
+       </string-array>
+</resources>

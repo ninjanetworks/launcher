@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="adw_changelog">
+-&lt;b>UYARI:&lt;/b> Temanız güzel görünmüyorsa tema gelişticisinden temayı güncellemesini isteyin!!! &lt;br>&lt;br>
+-&lt;b>UYARI:&lt;/b> EKRAN eklemek/silmek için MENÜ tuşuna basıp Düzenle\'yi seçin&lt;br>&lt;br>
+-&lt;b>UYARI:&lt;/b> Ekranın otomatik DÖNMESİ için SÜREKLİ BELLEKTE TUT\'u seçmeyin.&lt;br>&lt;br>
+-&lt;b>HATIRLATMA:&lt;/b> Katalog oluşturarak uygulamaları gizleyebilirsiniz (uygulamalar ekranında MENÜ tuşuna basın) &lt;br>&lt;br>
+
+&lt;b>Sürüm 1.3.6:&lt;/b>&lt;br>
+&lt;b>--------------&lt;/b>&lt;br>
+-Masaüstünü kilitleme/kilidi açma seçeneği (MENÜ/Diğer) &lt;br>
+-Zorla kapanma hataları için düzeltmeler &lt;br>
+&lt;b>Sürüm 1.3.5:&lt;/b>&lt;br>
+&lt;b>--------------&lt;/b>&lt;br>
+-Çöp kutusunun yerini değiştirme &lt;br>
+-Ögelere uzun basıldığında Hızlıİşlemler penceresi &lt;br>
+-Sabit programlar menüsünde sürükle/bırak ve hızlı işlemler desteği &lt;br>
+-Masaüstündeki EKLE menüsüne Başlatıcı İşlemleri eklendi &lt;br>
+-Bir kaç ufak düzeltme &lt;br>
+
+</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string-array name="menu_binding_entries">
+    <item>Немає</item>
+    <item>Переміщення до осн. області стільниці</item>
+    <item>Переміщ. до осн. обл. стільниці / поп. перегляд</item>
+    <item>Попередній перегляд</item>
+    <item>Відкриття (закриття) головного меню</item>
+    <item>Відобр. (прих.) рядока стану</item>
+    <item>Відкриття (закриття) панелі сповіщень</item>
+    <item>Переміщ. до осн. обл. стільниці / відкр. сповіщень</item>
+    <item>Відкриття (закриття) головної панелі</item>
+    <item>Програма\u2026</item>
+  </string-array>
+  <string-array name="desktop_indicator_entries">
+    <item>Крапки зверху</item>
+    <item>Повзунок зверху</item>
+    <item>Повзунок знизу</item>
+  </string-array>
+  <string-array name="desktop_transition_entries">
+    <item>Звичайний</item>
+    <item>Повертанням</item>
+    <item>Гортанням</item>
+    <item>Кубічний</item>
+    <item>Розпорошенням</item>
+  </string-array>
+  <string-array name="home_orientation_entries">
+    <item>Автоматичне/датчик</item>
+    <item>Книжне</item>
+    <item>Альбомне</item>
+  </string-array>
+  <string-array name="screen_cache_entries">
+    <item>Низька якість</item>
+    <item>Автоматичне</item>
+    <item>Вимкнене</item>
+  </string-array>
+  <string-array name="main_dock_entries">
+    <item>Вимкнення панелі (розширення стільниці)</item>
+    <item>3 іконки</item>
+    <item>5 іконок</item>
+    <item>1 іконка</item>
+  </string-array>
+  <string-array name="deletezone_entries">
+    <item>Смітник вимкнений</item>
+    <item>Зверху</item>
+    <item>Знизу</item>
+    <item>Зверху (зменшення стільниці)</item>
+    <item>Знизу (зменшення стільниці)</item>
+  </string-array>
+  <string-array name="app_drawer_style_entries">
+    <item>Вертикальне полотно</item>
+    <item>Горизонтальний, розбиття на сторінки</item>
+  </string-array>
+</resources>

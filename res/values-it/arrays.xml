@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+                <item>NIENTE</item>
+                <item>Vai a schermata di default</item>
+                <item>Vai a schermata di default/vis. anteprima</item>
+                <item>Visualizza anteprima</item>
+                <item>Chiudi/Apri Applicazione Drawer</item>
+                <item>Visualizza/Nascondi barra di stato</item>
+                <item>Apri/chiudi notifiche</item>
+                <item>Vai a schermata di default/Apri notifiche</item>
+                <item>Apri/chiudi DockBar</item>
+                <item>Avvia App...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>Punti (in alto)</item>
+                <item>Slider (in alto)</item>
+                <item>Slider (in basso)</item>
+       </string-array>
+       <string-array name="desktop_transition_entries">
+                <item>Normale</item>
+                <item>Ruota</item>
+                <item>Pagina</item>
+                <item>Cubo</item>
+                <item>Diffusione</item>
+       </string-array>
+       <string-array name="home_orientation_entries">
+                <item>Auto/sensore</item>
+                <item>Portrait</item>
+                <item>Landscape</item>
+       </string-array>
+       <string-array name="screen_cache_entries">
+                <item>Bassa qualità</item>
+                <item>Auto</item>
+                <item>Non attiva</item>
+       </string-array>
+       <string-array name="main_dock_entries">
+                <item>Nessuno (espandi desktop)</item>
+                <item>3 Icone</item>
+                <item>5 Icone</item>
+                <item>1 Icona</item>
+       </string-array>
+       <string-array name="deletezone_entries">
+                <item>Niente</item>
+                <item>In alto</item>
+                <item>In basso</item>
+                <item>In alto (restringi desktop)</item>
+                <item>In basso (restringi desktop)</item>
+       </string-array>
+       <string-array name="app_drawer_style_entries">
+                <item>Verticale piano</item>
+                <item>Impaginato orizzontalmente</item>
+       </string-array>
+</resources>
+

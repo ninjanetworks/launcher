@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General -->
+  <skip />
+  <string name="application_name">ADW.Launcher</string>
+  <string name="folder_name">Zložka</string>
+  <string name="chooser_wallpaper">Zvoliť tapetu zo zložky</string>
+  <string name="wallpaper_instructions">Nastaviť tapetu</string>
+  <string name="activity_not_found">Aplikácia nie je nainštalovaná.</string>
+  <string name="configure_wallpaper">Konfigurácia\u2026</string>
+
+  <!-- Folders -->
+  <skip />
+  <string name="rename_folder_label">Názov zložky</string>
+  <string name="rename_folder_title">Premenovať zložku</string>
+  <string name="rename_action">OK</string>
+  <string name="cancel_action">Zrušiť</string>
+
+  <!-- Shortcuts -->
+  <skip />
+  <string name="menu_item_add_item">Pridať na plochu</string>
+  <string name="group_applications">Aplikácie</string>
+  <string name="group_shortcuts">Skratky</string>
+  <string name="launcher_actions">Akcie Spúšťača</string>
+  <string name="group_search">Hľadať</string>
+  <string name="group_folder">Nová zložka</string>
+  <string name="group_live_folders">Zložky</string>
+  <string name="group_widgets">Widgety</string>
+  <string name="group_wallpapers">Tapety</string>
+  <string name="out_of_space">Na tejto ploche už nie je miesto.</string>
+  <string name="shortcut_installed">Zástupca \"<xliff:g id="name" example="Browser">%s</xliff:g>\" vytvorený.</string>
+  <string name="shortcut_uninstalled">Zástupca \"<xliff:g id="name" example="Browser">%s</xliff:g>\" odstránený.</string>
+  <string name="shortcut_duplicate">Zástupca \"<xliff:g id="name" example="Browser">%s</xliff:g>\" už existuje.</string>
+
+  <string name="title_select_shortcut">Zvoliť zástupcu</string>
+  <string name="title_select_live_folder">Zvoliť zložku</string>
+
+  <!-- Menus items: -->
+  <skip />
+  <string name="menu_add">Pridať</string>
+  <string name="menu_delete">Odobrať</string>
+  <string name="menu_wallpaper">Tapeta</string>
+  <string name="menu_search">Hľadať</string>
+  <string name="menu_settings">Nastavenia</string>
+  <string name="menu_adw_settings">Nastavenia ADW</string>
+
+  <!-- Permissions: -->
+  <string name="permlab_install_shortcut">inštalovať zástupcu</string>
+  <string name="permdesc_install_shortcut">Povoľuje aplikácii pridať zástupcu bez zásahu užívateľa.</string>
+  <string name="permlab_uninstall_shortcut">odinštalovať zástupcu</string>
+  <string name="permdesc_uninstall_shortcut">Povoľuje aplikácii odstrániť zástupcu bez zásahu užívateľa.</string>
+  <string name="permlab_read_settings">čítanie nastavení zástupcov a plochy</string>
+  <string name="permdesc_read_settings">Povoľuje aplikácii čítať nastavení a zástupcov na ploche.</string>
+  <string name="permlab_write_settings">zápis nastavení zástupcov a plochy</string>
+  <string name="permdesc_write_settings">Povoľuje aplikácii zapisovať nastavenia a zástupcov na ploche.</string>
+
+  <!-- Widgets: -->
+  <skip />
+  <string name="gadget_error_text">Nemožno načítať widget</string>
+  <string name="adw_version">Verzia 1.3.6 System CM 1.1</string>
+  <string name="pref_label_settings">Nastavenia ADW</string>
+  <string name="pref_title_screen_preferences">Nastavenia obrazovky</string>
+  <string name="pref_summary_screen_preferences">Základná obrazovka, rozloženie\u2026</string>
+
+  <string name="pref_title_wallpaper_hack">Hack tapety</string>
+  <string name="pref_summary_wallpaper_hack">Zakázať pokiaľ dochádza k pádu aplikácie. Ak je povolené, zlepšuje rýchlosť posúvania.</string>
+
+  <string name="pref_title_orientation_sensor">Orientácia plochy</string>
+  <string name="pref_summary_orientation_sensor">Zvoľte požadovanú orientáciu</string>
+
+  <string name="pref_title_hide_statusbar">Skryť stavový riadok</string>
+  <string name="pref_summary_hide_statusbar">Skryje stavový riadok</string>
+
+  <string name="pref_title_default_screen">Základná obrazovka</string>
+
+  <string name="pref_title_desktop_scrolling_speed">Rýchlosť posúvania plochy</string>
+  <string name="pref_summary_desktop_scrolling_speed">Nastavenia rýchlosti posúvania plôch obrazovky</string>
+  <string name="pref_dialog_desktop_scrolling_speed">Nižšia hodnota znamená rýchlejší posun</string>
+
+  <string name="pref_title_desktop_overshoot">Presah plochy</string>
+  <string name="pref_summary_desktop_overshoot">Umožňuje gumový posun plôch obrazovky</string>
+  <string name="pref_dialog_desktop_overshoot">Nastavením na hodnotu 0 je táto vlastnosť vypnutá</string>
+
+  <string name="pref_title_desktop_transition">Prechody plochy</string>
+  <string name="pref_summary_desktop_transition">Akým spôsobom sa budú meniť plochy</string>
+
+  <!-- Drawer Settings -->
+  <string name="pref_title_drawer_settings">Nastavenia zložky aplikácií</string>
+  <string name="pref_summary_drawer_settings">Nastavenie mriežky zložky aplikácií</string>
+
+  <string name="pref_title_zoom_effect_speed">Rýchlosť efektu priblíženia</string>
+  <string name="pref_summary_zoom_effect_speed">Nastavenie času (v milisekundách) pre efekt priblíženia</string>
+  <string name="pref_dialog_zoom_effect_speed">Nastavenie času (v milisekundách) pre efekt priblíženia</string>
+
+  <string name="pref_title_page_horizontal_margin">Vodorovný okraj stránky</string>
+  <string name="pref_summary_page_horizontal_margin">Nastavenie vodorovného okraja medzi každou stránkou zložky</string>
+  <string name="pref_dialog_page_horizontal_margin">Nastavenie vodorovného okraja medzi každou stránkou zložky</string>
+
+  <string name="pref_title_animated_drawer">Animovaná zložka</string>
+  <string name="pref_summary_animated_drawer">Určuje, či bude zobrazovanie zložky aplikácií animované</string>
+
+  <string name="pref_title_drawer_columns_portrait">Stĺpce na výšku</string>
+  <string name="pref_summary_drawer_columns_portrait">Výber počtu stĺpcov zložky aplikácií pre zobrazenie na výšku</string>
+  <string name="pref_dialog_drawer_columns_portrait">Výber počtu stĺpcov zložky aplikíácií pre zobrazenie na výšku</string>
+
+  <string name="pref_title_drawer_rows_portrait">Riadky na výšku</string>
+  <string name="pref_summary_drawer_rows_portrait">Výber počtu riadkov zložky aplikácií pre zobrazenie na výšku</string>
+  <string name="pref_dialog_drawer_rows_portrait">Výber počtu riadkov zložky aplikácií pre zobrazenie na výšku</string>
+
+  <string name="pref_title_drawer_columns_landscape">Stĺpce na šírku</string>
+  <string name="pref_summary_drawer_columns_landscape">Výber počtu stĺpcov  zložky aplikácií pre zobrazenie na šírku</string>
+  <string name="pref_dialog_drawer_columns_landscape">Výber počtu stĺpcov zložky aplikácií pre zobrazenie na šírku</string>
+
+  <string name="pref_title_drawer_rows_landscape">Riadky na šírku</string>
+  <string name="pref_summary_drawer_rows_landscape">Výber počtu riadkov zložky aplikácií pre zobrazenie na šírku</string>
+  <string name="pref_dialog_drawer_rows_landscape">Výber počtu riadkov zložky aplikácií pre zobrazenie na šírku</string>
+
+  <string name="pref_title_sense_previews">Náhľad Sense</string>
+  <string name="pref_summary_sense_previews">Použiť nové zobrazovanie ako Sense</string>
+
+  <!-- Button preferences -->
+  <string name="pref_title_ui_settings">Nastavenie prostredia</string>
+  <string name="pref_summary_ui_settings">Povoliť/zakázať prvky prostredia</string>
+
+  <string name="pref_title_home_button_binding">Priradenie tlačidla Home</string>
+  <string name="pref_summary_home_button_binding">Zvoliť akciu pre tlačidlo Home</string>
+
+  <string name="pref_title_swipedown_actions">Akcia pre &quot;dole&quot;</string>
+  <string name="pref_summary_swipedown_actions">Zvoliť akciu pre gesto &quot;dole&quot;</string>
+
+  <string name="pref_title_swipeup_actions">Akcia pre &quot;hore&quot;</string>
+  <string name="pref_summary_swipeup_actions">Zvoliť akciu pre gesto  &quot;hore&quot;</string>
+
+  <string name="pref_title_desktop_dots">Plochy ako body</string>
+  <string name="pref_summary_desktop_dots">Zobraziť/skryť stránkovanie v štýle bodov (Nexus)</string>
+
+  <string name="pref_title_dockbar">Lišta doku</string>
+  <string name="pref_summary_dockbar">Povoliť/zakázať novú lištu doku pre zástupcov</string>
+
+  <string name="pref_title_closing_dockbar">Zatváranie doku</string>
+  <string name="pref_summary_closing_dockbar">Zatvoriť dok po spustení aplikácie</string>
+
+  <string name="pref_title_closing_folder">Zatváranie zložky</string>
+  <string name="pref_summary_closing_folder">Zatvoriť zložku po spustení aplikácie</string>
+
+  <string name="pref_title_ab_scale_factor">Veľkosť TA</string>
+  <string name="pref_summary_ab_scale_factor">Nastaviť veľkosť pre ikony Tlačidiel Akcií</string>
+  <string name="pref_dialog_ab_scale_factor">Nastaviť veľkosť pre ikony Tlačidiel Akcií</string>
+
+  <string name="pref_title_hide_ab_bg">Skryť pozadie TA</string>
+  <string name="pref_summary_hide_ab_bg">Skryť pozadie  pre Tlačidlá Akcií</string>
+
+  <string name="pref_title_hide_icon_labels">Skryť názvy ikon</string>
+  <string name="pref_summary_hide_icon_labels">Skryť názvy ikon na ploche</string>
+
+  <string name="pref_title_build_info">Informácie o zostavení</string>
+  <string name="pref_title_adw_version">Verzia ADW</string>
+
+  <string name="pref_title_icon_highlights">Farba zvýraznenia spustenia</string>
+  <string name="pref_summary_icon_highlights">Nastaviť farbu pri dotyku na ikonu</string>
+  <string name="pref_title_icon_highlights_focus">Farba zvýraznenia výberu</string>
+  <string name="pref_summary_icon_highlights_focus">Farba zvýraznenia pri vybratí ikony</string>
+  <string name="pref_title_new_selectors">Použiť nový výber farieb</string>
+  <string name="pref_summary_new_selectors">Zakázaním sa použijú staré možnosti výberu farby.</string>
+  <string name="pref_title_drawer_color">Farba pozadia</string>
+  <string name="pref_summary_drawer_color">Nastavenie farby pre pozadie zložky</string>
+
+  <string name="pref_dialog_title_color_picker">Výber farby.</string>
+  <string name="pref_dialog_message_color_picker">Farebným stredom vyberiete farbu.\nStlačením Späť sa výber zruší.</string>
+  <string name="pref_dialog_color_picker_alpha">alfa</string>
+  <string name="pref_message_restart_normal">Vykonaním zmeny tohto nastavenia sa spúštač sa reštartuje</string>
+  <string name="pref_message_restart_froyo">Vykonaním zmeny tohto nastavenia sa spúštač sa reštartuje</string>
+  <string name="drop_to_uninstall">Vložením bude vykonané odinštalovanie</string>
+
+  <string name="toast_widgets_not_supported">Widgety nie sú podporované\u2026 pardon!</string>
+  <string name="toast_unknown_item">Neznáma položka. Nie je možné pridať neznáme typy položiek!</string>
+  <string name="toast_no_application_def">Nebola definovaná aplikácia, položte sem nejakú!</string>
+
+  <string name="pref_title_import_export">Záloha a obnovenie</string>
+  <string name="pref_title_xml">Nastavenie ADW</string>
+  <string name="pref_title_xml_import">Obnoviť nastavenie ADW</string>
+  <string name="pref_summary_xml_import">Obnoviť z /sdcard/adw_settings.xml</string>
+  <string name="pref_title_xml_export">Záloha nastavení ADW</string>
+  <string name="pref_summary_xml_export">Zálohovať do /sdcard/adw_settings.xml</string>
+
+  <string name="pref_title_db">Konfigurácia plochy</string>
+  <string name="pref_title_db_import">Obnoviť konfiguráciu plochy</string>
+  <string name="pref_summary_db_import">Obnoviť z /sdcard/adw_launcher.db</string>
+  <string name="pref_title_db_export">Zálohovať konfiguráciu plochy</string>
+  <string name="pref_summary_db_export">Zálohovať do /sdcard/adw_launcher.db</string>
+
+  <string name="title_dialog_xml">Nastavenie spúšťača ADW</string>
+  <string name="import_export_sdcard_unmounted">Karta SD nie je pripojená!</string>
+
+  <!-- XML Import/Export strings -->
+  <string name="message_dialog_export">Zálohovať nastavenia ADW? Existujúci súbor bude prepísaný.</string>
+  <string name="xml_export_dialog">Zálohuje sa nastavenie ADW\u2026</string>
+  <string name="xml_export_success">Nastavenie ADW bolo úspešne zálohované!</string>
+  <string name="xml_export_error">Pri zálohovaní nastavení ADW došlo k chybe!</string>
+
+  <string name="message_dialog_import">Obnoviť nastavení ADW? Spúšťaš ADW bude reštartovaný.</string>
+  <string name="xml_import_dialog">Obnovuje sa nastavenie ADW\u2026</string>
+  <string name="xml_file_not_found">Súbor zálohy nastavení nebol nájdený!</string>
+  <string name="xml_not_readable">Záloha nastavení bola nájdená, ale je nečitateľná (poškodená)!</string>
+  <string name="xml_import_success">Nastavenie ADW úspešne obnovené!</string>
+  <string name="xml_import_error">Pri obnove nastavení ADW došlo k chybe!</string>
+
+  <!-- Config Import/Export strings -->
+  <string name="message_dialog_export_config">Zálohovať konfiguráciu plochy? Existujúci súbor bude prepísaný.</string>
+  <string name="dbfile_export_dialog">Zálohuje sa nastavenie plochy\u2026</string>
+  <string name="dbfile_export_success">Konfigurácia úspešne zálohovaná!</string>
+  <string name="dbfile_export_error">Pri zálohovaní došlo k chybe!</string>
+
+  <string name="message_dialog_import_config">Obnoviť konfiguráciu plochy? Spúšťaš ADW bude reštartovaný.</string>
+  <string name="dbfile_import_dialog">Obnovuje sa nastavenie plochy\u2026</string>
+  <string name="dbfile_not_found">Súbor zálohy nastavení nebol nájdený!</string>
+  <string name="dbfile_not_readable">Súbor zálohy bol nájdený, ale je nečitateľný (poškodený)!</string>
+  <string name="dbfile_import_success">Konfigurácia úspešne obnovená!</string>
+  <string name="dbfile_import_error">Pri obnove konfigurácie došlo k chybe!</string>
+
+  <!--  Desktop columns/Rows -->
+  <string name="pref_title_desktop_columns">Stĺpce plochy</string>
+  <string name="pref_summary_desktop_columns">Zvoľte počet stĺpcov na ploche</string>
+  <string name="pref_dialog_desktop_columns">Zvoľte počet stĺpcov na ploche</string>
+
+  <string name="pref_title_desktop_rows">Riadky plochy</string>
+  <string name="pref_summary_desktop_rows">Zvoľte počet riadkov na ploche</string>
+  <string name="pref_dialog_desktop_rows">Zvoľte počet riadkov na ploche</string>
+
+  <string name="pref_title_autosize_icons">Prispôsobiť</string>
+  <string name="pref_summary_autosize_icons">Pokúsiť sa prispôsobiť ikony/widgety tak, aby sa neprekrývali</string>
+
+  <string name="pref_title_drawer_labels">Zobraziť popisy aplikácií</string>
+  <string name="pref_summary_drawer_labels">Zobraziť popisy na zložke aplikácií</string>
+  <string name="pref_title_fade_drawer_labels">Miznutie popisov</string>
+  <string name="pref_summary_fade_drawer_labels">Popisy aplikácií budú miznúť, namiesto jednoduchého zobrazenia. Toto použije viac prostriedkov (RAM/CPU)</string>
+
+  <string name="widget_config_dialog_title">Plocha widgetu</string>
+  <string name="widget_config_dialog_summary">Koľko riadkov/stĺpcov môže widget obsadiť?</string>
+  <string name="widget_columns">Stĺpcov</string>
+  <string name="widget_rows">Riadkov</string>
+
+  <string name="pref_title_screen_cache">Cache pre posúvanie</string>
+  <string name="pref_summary_screen_cache">Vyššia kvalita použije viac pamäte.</string>
+
+  <string name="pref_title_desktop_indicator">Zobraziť ukazateľ plochy</string>
+  <string name="pref_summary_desktop_indicator">Zobraziť viditeľný ukazateľ na posúvajúcej sa ploche</string>
+  <string name="pref_title_desktop_indicator_autohide">Skrývať ukazateľ plochy</string>
+  <string name="pref_summary_desktop_indicator_autohide">Skryť ukazateľ po krátkej dobe</string>
+  <string name="pref_title_desktop_indicator_type">Štýl ukazateľa</string>
+  <string name="pref_summary_desktop_indicator_type">Možnosť vybrať medzi rôznymi štýlmi ukazateľov</string>
+
+  <!-- Category titles -->
+  <string name="pref_title_system_preferences">Systémové nastavenia</string>
+    <string name="pref_summary_system_preferences">Obecné nastavenia systému spúšťača ADW</string>
+  <string name="pref_title_screens_layout_preferencecategory">Vzhľad plochy</string>
+  <string name="pref_title_screens_behaviour_preferencecategory">Chovanie plochy</string>
+  <string name="pref_title_drawer_preferencecategory">Zložka aplikácií</string>
+  <string name="pref_title_drawer_visuals_preferencecategory">Vzhľad zložky aplikácií</string>
+  <string name="pref_title_highlights_preferencecategory">Zvýraznenie ikon</string>
+  <string name="pref_title_indicators_preferencecategory">Ukazateľ plochy</string>
+
+  <string name="pref_title_system_persistent">Uchovať v systéme</string>
+  <string name="pref_summary_system_persistent">Nebezpečné - táto voľba zamedzí systému ukončiť spúšťač (kill)</string>
+
+  <!-- Theme preferences -->
+  <string name="pref_title_theme_settings">Nastavenie motívu</string>
+  <string name="pref_summary_theme_settings">Zvoľte motív pre spúšťač ADW</string>
+  <string name="pref_title_theme_package">Zvoľte motív</string>
+  <string name="pref_summary_theme_package">Zvoľte motív pre spúšťač ADW</string>
+  <string name="pref_title_theme_preview">Náhľad motívu</string>
+  <string name="pref_summary_theme_preview">Náhľad vybraného motívu</string>
+  <string name="pref_title_theme_icons">Použiť ikony motívu</string>
+  <string name="pref_summary_theme_icons">Pokiaľ nie je zvolené, použijú sa štandardné ikony systému</string>
+  <string name="pref_themes_apply_theme">Aplikovať motív!</string>
+  <string name="pref_themes_get_themes">Získať motívy!</string>
+
+  <string name="pref_title_wallpaper_scrolling">Posúvanie tapety</string>
+  <string name="pref_summary_wallpaper_scrolling">Povoliť posúvanie tapety pri posúvaní plochy</string>
+
+  <string name="message_delete_desktop_screen">Odstrániť túto plochu a celý jej obsah?</string>
+  <string name="message_cannot_delete_desktop_screen">Nie je možné odstrániť jedinú plochu</string>
+  <string name="message_cannot_add_desktop_screen">Nie je možné pridať viac plôch</string>
+  <string name="message_cannot_swap_desktop_screen">Nie je možné prehodiť plochy</string>
+
+  <string name="menu_edit">Zmeniť</string>
+
+  <string name="pref_label_shirtcuts">Zástupca</string>
+  <string name="pref_label_activities">Aktivity</string>
+  <string name="shirtcut_header">Zvoľte aktivitu aplikácie pre spustenie.\nMôžete taktiež vybrať ikonu.</string>
+  <string name="shirtcut_pick_activity">Vybrať aktivitu</string>
+  <string name="shirtcut_label">Názov</string>
+  <string name="shirtcuts_select_picture">Vybrať obrázok</string>
+  <string name="shirtcuts_crop_picture">Vybrať a orezať obrázok</string>
+  <string name="shirtcuts_icon_packs">Balík ikon ADWTheme</string>
+  <string name="shirtcuts_select_icon_type">Vybrať typ ikony</string>
+  <string name="shirtcuts_select_icon_pack">Vybrať balík ikon</string>
+  <string name="shirtcuts_restore_original">Obnoviť originálne</string>
+
+  <string name="selectAll">Vybrať všetko</string>
+  <string name="AppGroupAll">"Všetko"</string>
+  <string name="AppGroupUn">"Netriedené"</string>
+  <string name="AppGroupAdd">"Nový katalóg"</string>
+  <string name="AppGroupDel">"Odstrániť katalóg"</string>
+  <string name="AppGroupDelLong">"Naozaj ostrániť\ntento katalóg?"</string>
+  <string name="AppGroupChoose">"Zvoliť katalóg"</string>
+  <string name="AppGroupConfig">"Nastaviť katalóg"</string>
+  <string name="AppGroupRename">"Nový katalóg"</string>
+  <string name="AppGroupConfigError">"Nie je možné nastaviť tento katalóg"</string>
+  <string name="rename_group_title">Nový katalóg</string>
+  <string name="rename_group_label">Názov katalógu</string>
+  <string name="show_catalog">Zobraziť katalóg \"%s\"</string>
+
+  <string name="pref_title_adw_restart">Reštartovať ADW</string>
+  <string name="pref_summary_adw_restart">Zavrieť a reštartovať spúšťač ADW</string>
+  <string name="pref_title_adw_reset">Obnoviť ADW</string>
+  <string name="pref_summary_adw_reset">Vyčistiť nastavenie  spúšťača ADW a reštartovať ho</string>
+
+  <string name="scrollable_api_required">Tento widget vyžaduje novšiu verziu spúšťača ADW.\nVykonajte aktualizáciu alebo kontaktujte tvorcu widgetu</string>
+
+  <string name="pref_title_drawer_navigate_catalogs">Prezeranie katalógov</string>
+  <string name="pref_summary_drawer_navigate_catalogs">Zobraziť tlačidlá navigácie katalógov aplikácií</string>
+  <string name="pref_title_drawer_ungroup_catalog">Len katalógy</string>
+  <string name="pref_summary_drawer_ungroup_catalog">Odstrániť VŠETKY kategórie a používať len katalógy</string>
+  <string name="pref_title_drawer_show_catalogs">Zobraziť nadpis katalógu</string>
+  <string name="pref_summary_drawer_show_catalogs">Zobraziť nadpis katalógu v zložke</string>
+  <string name="pref_title_notif_receiver">Zobraziť oznámenie</string>
+  <string name="pref_summary_notif_receiver">Povolí počítadlá globálnych oznámení</string>
+
+  <string name="pref_title_notif_size">Veľkosť fontu pre bubliny</string>
+  <string name="pref_summary_notif_size">Zvoľte veľkosť fontu pre bubliny oznámení</string>
+  <string name="pref_dialog_notif_size">Zvoľte veľkosť fontu pre bubliny oznámení</string>
+
+  <string name="pref_title_ab_preferencecategory">Hlavný dok</string>
+  <string name="pref_title_main_dock_style">Štýl hlavného doku</string>
+  <string name="pref_summary_main_dock_style">Zvoliť vzhľad hlavného doku</string>
+  <string name="pref_title_behaviour_preferences">Obecné správanie</string>
+  <string name="pref_summary_behaviour_preferences">Konfigurácia správania aplikácií</string>
+  <string name="pref_title_drawer_style">Vzhľad zložky aplikácií</string>
+  <string name="pref_summary_drawer_style">Umožní prepínať medzi rôznymi vzhľadmi zložky aplikácií</string>
+  <string name="pref_title_dockbar_preferencecategory">Skrytý dok</string>
+  <string name="pref_title_ab_tint">Zafarbenie ikon doku</string>
+  <string name="pref_summary_ab_tint">Vykonanie zafarbenia ikon doku</string>
+  <string name="pref_title_ab_tint_color">Farba zafarbenia</string>
+  <string name="pref_summary_ab_tint_color">Zmeniť farbu zafarbenia</string>
+  <string name="pref_title_deletezone_preferencecategory">Odpadkový kôš</string>
+  <string name="pref_title_deletezone_style">Pozícia odpadkového koša</string>
+  <string name="pref_summary_deletezone_style">Zmeniť pozíciu odpadkového koša</string>
+  <string name="pref_title_close_apps_dockbar">Zatvárať aplikačnú zložku</string>
+  <string name="pref_summary_close_apps_dockbar">Zavrieť aplikačnú zložku pri dlhom stlačení položky pri zobrazenom doku</string>
+  <string name="menu_lock">Zamknúť plochu</string>
+  <string name="menu_unlock">Odomknúť plochu</string>
+</resources>

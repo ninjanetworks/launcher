@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="5865630159700533006">"ADW.Launcher"</string>
+    <string name="folder_name" msgid="4588446541914685904">"Mapp"</string>
+    <string name="chooser_wallpaper" msgid="5988031014201479733">"Välj bakgrund från"</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"Ange bakgrund"</string>
+    <string name="activity_not_found" msgid="3571057450431950427">"Programmet är inte installerat på din telefon."</string>
+    <string name="configure_wallpaper" msgid="2820186271419674623">"Konfigurera..."</string>
+    <string name="rename_folder_label" msgid="5646236631298452787">"Mappnamn"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"Byt namn på mapp"</string>
+    <string name="rename_action" msgid="6016003384693240896">"OK"</string>
+    <string name="cancel_action" msgid="3811860427489435048">"Avbryt"</string>
+    <string name="menu_item_add_item" msgid="6233177331075781114">"Lägg till på startsidan"</string>
+    <string name="group_applications" msgid="4118484163419674240">"Program"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"Genvägar"</string>
+    <string name="launcher_actions">Åtgärder för startare</string>
+    <string name="group_search" msgid="5905328940867162196">"Sök"</string>
+    <string name="group_folder" msgid="5143593791798929193">"Ny mapp"</string>
+    <string name="group_live_folders" msgid="2664945399140647217">"Mappar"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"Widgetar"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"Bakgrundsbilder"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"Det finns inte plats för mer på den här startsidan."</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"Genvägen \"<xliff:g id="NAME">%s</xliff:g>\" har skapats."</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"Genvägen \"<xliff:g id="NAME">%s</xliff:g>\" har tagits bort."</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"Genvägen \"<xliff:g id="NAME">%s</xliff:g>\" finns redan."</string>
+    <string name="title_select_shortcut" msgid="2858897527672831763">"Välj genväg"</string>
+    <string name="title_select_live_folder" msgid="3753447798805166749">"Välj mapp"</string>
+    <string name="menu_add" msgid="3065046628354640854">"Lägg till"</string>
+    <string name="menu_delete">Ta bort</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"Bakgrund"</string>
+    <string name="menu_search" msgid="4826514464423239041">"Sök"</string>
+    <string name="menu_settings" msgid="6233960148378443661">"Inställningar"</string>
+    <string name="menu_adw_settings">ADWInställningar</string>
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"installera genvägar"</string>
+    <string name="permdesc_install_shortcut" msgid="7429365847558984148">"Tillåter att ett program lägger till genvägar utan åtgärd från användaren."</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"avinstallera genvägar"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"Tillåter att ett program tar bort genvägar utan åtgärd från användaren."</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"läsa inställningar och genvägar för startsidan"</string>
+    <string name="permdesc_read_settings" msgid="8377434937176025492">"Tillåter att ett program läser inställningar och genvägar på startsidan."</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"skriva inställningar och genvägar för startsidan"</string>
+    <string name="permdesc_write_settings" msgid="1098648778383349818">"Tillåter att ett program ändrar inställningar och genvägar på startsidan."</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"Det gick inte att läsa in widgeten"</string>
+    <string name="pref_label_settings">ADW-inställningar</string>
+    <string name="pref_title_screen_preferences">Skärminställningar</string>
+    <string name="pref_summary_screen_preferences">Standardskärm, layout...</string>
+    <string name="pref_title_wallpaper_hack">Bakgrunds-hack</string>
+    <string name="pref_summary_wallpaper_hack">Inaktivera detta om du får tvångsavslutningar. Att låta den vara på snabbar upp scrollning.</string>
+    <string name="pref_title_orientation_sensor">Hemorientering</string>
+    <string name="pref_summary_orientation_sensor">Välj din önskade orientering</string>
+    <string name="pref_title_hide_statusbar">Göm statusraden</string>
+    <string name="pref_summary_hide_statusbar">Gömmer din statusrad</string>
+    <string name="pref_title_looping">Skärmloop</string>
+    <string name="pref_summary_looping">Möjliggör loop för arbetsytor</string>
+    <string name="pref_title_default_screen">Standardskärm</string>
+    <string name="pref_title_desktop_scrolling_speed">Scrollhastighet för skrivbord</string>
+    <string name="pref_summary_desktop_scrolling_speed">Ställ in hastigheten som används vid hopp mellan skrivbordsskärmar</string>
+    <string name="pref_dialog_desktop_scrolling_speed">Desto lägre värde, desto snabbare hopp</string>
+    <string name="pref_title_desktop_overshoot">Skrivbordsöverskjutning</string>
+    <string name="pref_summary_desktop_overshoot">Tillåter skrivbordsskärmar med studsande scrollning</string>
+    <string name="pref_dialog_desktop_overshoot">Sätt detta till 0 för att inaktivera överskjutning</string>
+    <string name="pref_title_desktop_transition">Skrivbordsövergångar</string>
+    <string name="pref_summary_desktop_transition">Hur det ser ut när man byter mellan skrivbord</string>
+
+    <string name="pref_title_drawer_settings">Programlådans inställningar</string>
+    <string name="pref_summary_drawer_settings">Inställningar för programlådans rutnät</string>
+    <string name="pref_title_zoom_effect_speed">Snabbhet på zoom-effekt</string>
+    <string name="pref_summary_zoom_effect_speed">Ställ in tiden i millisekunder för zoom-effekten</string>
+    <string name="pref_dialog_zoom_effect_speed">Ställ in tiden i millisekunder för zoom-effekten</string>
+    <string name="pref_title_page_horizontal_margin">Sidors horisontella marginal</string>
+    <string name="pref_summary_page_horizontal_margin">Ställ in den horisontella marginalen mellan varje sida i Programlådan</string>
+    <string name="pref_dialog_page_horizontal_margin">Ställ in den horisontella marginalen mellan varje sida i Programlådan</string>
+    <string name="pref_title_animated_drawer">Animerad Programlåda</string>
+    <string name="pref_summary_animated_drawer">Bestämmer huruvida Programlådan ska visa animationer</string>
+    <string name="pref_title_drawer_columns_portrait">Programlådekolumner - Porträtt</string>
+    <string name="pref_summary_drawer_columns_portrait">Välj antalet kolumner för Programlådan i porträttläge</string>
+    <string name="pref_dialog_drawer_columns_portrait">Välj antalet kolumner för Programlådan i porträttläge</string>
+    <string name="pref_title_drawer_rows_portrait">Programlåderader - Porträtt</string>
+    <string name="pref_summary_drawer_rows_portrait">Välj antalet rader för Programlådan i porträttläge</string>
+    <string name="pref_dialog_drawer_rows_portrait">Välj antalet rader för Programlådan i porträttläge</string>
+    <string name="pref_title_drawer_columns_landscape">Programlådekolumner - Landskap</string>
+    <string name="pref_summary_drawer_columns_landscape">Välj antalet kolumner för Programlådan i landskapsläge</string>
+    <string name="pref_dialog_drawer_columns_landscape">Välj antalet kolumner för Programlådan i landskapsläge</string>
+    <string name="pref_title_drawer_rows_landscape">Programlåderader - Landskap</string>
+    <string name="pref_summary_drawer_rows_landscape">Välj antalet rader för Programlådan i landskapsläge</string>
+    <string name="pref_dialog_drawer_rows_landscape">Välj antalet rader för Programlådan i landskapsläge</string>
+    <string name="pref_title_sense_previews">Sense-förhandsgranskningar</string>
+    <string name="pref_summary_sense_previews">Använd den nya Sense-liknande implementationen</string>
+    <string name="pref_title_ui_settings">Gränssnittsinställningar</string>
+    <string name="pref_summary_ui_settings">Aktivera/inaktivera element i gränssnittet</string>
+    <string name="pref_title_home_button_binding">Händelse för Hem-knapp</string>
+    <string name="pref_summary_home_button_binding">Välj händelse vid tryck på Hem-knappen</string>
+    <string name="pref_title_swipedown_actions">Händelse för nedåtsvep</string>
+    <string name="pref_summary_swipedown_actions">Välj en händelse för nedåtsveps-gesten</string>
+    <string name="pref_title_swipeup_actions">Händelse för uppåtsvep</string>
+    <string name="pref_summary_swipeup_actions">Välj en händelse för uppåtsveps-gesten</string>
+    <string name="pref_title_doubletap_actions">Åtgärder vid dubbelklick</string>
+    <string name="pref_summary_doubletap_actions">Välj åtgärd vid dubbelklick</string>
+    <string name="pref_title_desktop_dots">Skrivbordsprickar</string>
+    <string name="pref_summary_desktop_dots">Visa/göm pagineringsprickarna (Nexus-stil)</string>
+    <string name="pref_title_dockbar">Dockarad</string>
+    <string name="pref_summary_dockbar">Aktivera/inaktivera den nya dockaraden för dina genvägar</string>
+    <string name="pref_title_closing_dockbar">Dockaradsstängning</string>
+    <string name="pref_summary_closing_dockbar">Stäng automatiskt dockaraden efter programstart</string>
+    <string name="pref_title_closing_folder">Mappstängning</string>
+    <string name="pref_summary_closing_folder">Stäng automatiskt mappen efter programstart</string>
+    <string name="pref_title_ab_scale_factor">HK-storlek</string>
+    <string name="pref_summary_ab_scale_factor">Ställ in skalningsstorlek för HändelseKnapp-ikonerna</string>
+    <string name="pref_dialog_ab_scale_factor">Ställ in skalningsstorlek för HändelseKnapp-ikonerna</string>
+    <string name="pref_title_hide_ab_bg">Göm HK bakgrund</string>
+    <string name="pref_summary_hide_ab_bg">Göm bakgrunden för Händelse Knapparna</string>
+    <string name="pref_title_hide_icon_labels">Göm ikonetiketter</string>
+    <string name="pref_summary_hide_icon_labels">Göm ikonetiketter på skrivbordet</string>
+    <string name="pref_title_build_info">Build-information</string>
+    <string name="pref_title_adw_version">ADW-version</string>
+    <string name="pref_title_icon_highlights">Markeringsfärg vid tryck</string>
+    <string name="pref_summary_icon_highlights">Ställ in färgen som används vid tryck på ikoner</string>
+    <string name="pref_title_icon_highlights_focus">Markeringsfärg vid fokus</string>
+    <string name="pref_summary_icon_highlights_focus">Ställ in färgen som används vid ikonfokus</string>
+    <string name="pref_title_new_selectors">Använd nya ikonväljare</string>
+    <string name="pref_summary_new_selectors">Inaktivera detta för att använda de gamla ritobjekten.</string>
+    <string name="pref_title_drawer_color">Bakgrundsfärg</string>
+    <string name="pref_summary_drawer_color">Ställ in bakgrundsfärg för Programlådan</string>
+    <string name="pref_dialog_title_color_picker">Välj en färg.</string>
+    <string name="pref_dialog_message_color_picker">Klicka på mittenfärgen för att bekräfta.\nTryck bakår för att avbryta.</string>
+    <string name="pref_dialog_color_picker_alpha">alpha</string>
+    <string name="pref_message_restart_normal">Launchern kommer startas om vid ändring av denna inställning</string>
+    <string name="pref_message_restart_froyo">Launchern kommer startas om vid ändring av denna inställning</string>
+    <string name="drop_to_uninstall">Släpp för att avinstallera</string>
+    <string name="toast_widgets_not_supported">Widgetar stöds inte... ledsen :-)</string>
+    <string name="toast_unknown_item">Okänt föremål. Vi kan inte lägga till okända föremål :-)</string>
+    <string name="toast_no_application_def">Ingen applikation definierad än, släpp något här! :)</string>
+    <string name="pref_title_import_export">Säkerhetskopiering och återställning</string>
+    <string name="pref_title_xml">ADW-inställningar</string>
+    <string name="pref_title_xml_import">Återställ ADW-inställningar</string>
+    <string name="pref_summary_xml_import">Återställ från /sdcard/adw_settings.xml</string>
+    <string name="pref_title_xml_export">Säkerhetskopiera ADW-inställningar</string>
+    <string name="pref_summary_xml_export">Säkerhetskopiera till /sdcard/adw_settings.xml</string>
+    <string name="pref_title_db">Skrivbordskonfiguration</string>
+    <string name="pref_title_db_import">Återställ skrivbordskonfiguration</string>
+    <string name="pref_summary_db_import">Återställ från /sdcard/adw_launcher.db</string>
+    <string name="pref_title_db_export">Säkerhetskopiera skrivbordskonfiguration</string>
+    <string name="pref_summary_db_export">Säkerhetskopiera till /sdcard/adw_launcher.db</string>
+    <string name="title_dialog_xml">ADWLauncher-inställningar</string>
+    <string name="import_export_sdcard_unmounted">SD-kort är inte monterat!</string>
+    <string name="message_dialog_export">Säkerhetskopiera ADW-inställningar? Om det redan finns en säkerhetskopia kommer denna skrivas över.</string>
+    <string name="xml_export_dialog">Säkerhetskopierar ADW-inställningar...</string>
+    <string name="xml_export_success">Säkerhetskopiering av ADW-inställningar lyckades!</string>
+    <string name="xml_export_error">Fel vid säkerhetskopiering av ADW-inställningar!</string>
+    <string name="message_dialog_import">Återställ ADW-inställningar? ADWLauncher kommer startas om.</string>
+    <string name="xml_import_dialog">Återställer ADW-inställningar...</string>
+    <string name="xml_file_not_found">Säkerhetskopia med inställningar kunde inte hittas!</string>
+    <string name="xml_not_readable">Säkerhetskopia med inställningar finns, men kan inte läsas!</string>
+    <string name="xml_import_success">Återställning av ADW-inställningar lyckades!</string>
+    <string name="xml_import_error">Fel vid återställning av ADW-inställningar!</string>
+    <string name="message_dialog_export_config">Säkerhetskopiera skrivbordskonfiguration? Om det redan finns en säkerhetskopia kommer denna skrivas över.</string>
+    <string name="dbfile_export_dialog">Säkerhetskopierar skrivbordskonfiguration...</string>
+    <string name="dbfile_export_success">Säkerhetskopiering av konfiguration lyckades!</string>
+    <string name="dbfile_export_error">Fel vid säkerhetskopiering av konfiguration!</string>
+    <string name="message_dialog_import_config">Återställ skrivbordskonfiguration? ADWLauncher kommer startas om.</string>
+    <string name="dbfile_import_dialog">Återställer skrivbordskonfiguration...</string>
+    <string name="dbfile_not_found">Konfigurationsfil kunde inte hittas!</string>
+    <string name="dbfile_not_readable">Konfigurationsfil finns, men kan inte läsas!</string>
+    <string name="dbfile_import_success">Återställning av konfiguration lyckades!</string>
+    <string name="dbfile_import_error">Fel vid återställning av konfiguration!</string>
+    <string name="pref_title_desktop_columns">Skrivbordskolumner</string>
+    <string name="pref_summary_desktop_columns">Välj antalet kolumner att använda på skrivbordet</string>
+    <string name="pref_dialog_desktop_columns">Välj antalet kolumner att använda på skrivbordet</string>
+    <string name="pref_title_desktop_rows">Skrivbordsrader</string>
+    <string name="pref_summary_desktop_rows">Välj antalet rader att använda på skrivbordet</string>
+    <string name="pref_dialog_desktop_rows">Välj antalet rader att använda på skrivbordet</string>
+    <string name="pref_title_autosize_icons">Auto-Utsträckning</string>
+    <string name="pref_summary_autosize_icons">Försök sträcka ut ikoner/widgetar så de inte överlappar</string>
+    <string name="pref_title_drawer_labels">Visa programetiketter</string>
+    <string name="pref_summary_drawer_labels">Visa etiketter i Programlådan</string>
+    <string name="pref_title_fade_drawer_labels">Tona in programetiketter</string>
+    <string name="pref_summary_fade_drawer_labels">Etiketter tonas fram istället för att bara framträda. Använder mer minne och CPU</string>
+    <string name="widget_config_dialog_title">Spännviddskonfiguration för widget</string>
+    <string name="widget_config_dialog_summary">Hur många rader/kolumner kommer widgeten använda?</string>
+    <string name="widget_columns">Kolumner</string>
+    <string name="widget_rows">Rader</string>
+    <string name="pref_title_screen_cache">Scrollnings-cache</string>
+    <string name="pref_summary_screen_cache">Högre kvalitet kommer använda mer minne.</string>
+    <string name="pref_title_desktop_indicator">Visa skrivbordsindikator</string>
+    <string name="pref_summary_desktop_indicator">Visar en visuell antydan på scrollande skrivbord</string>
+    <string name="pref_title_desktop_indicator_autohide">Göm automatiskt skrivbordsindikatorn</string>
+    <string name="pref_summary_desktop_indicator_autohide">Gömmer indikatorn efter en kort stund</string>
+    <string name="pref_title_desktop_indicator_type">Indikator-typ</string>
+    <string name="pref_summary_desktop_indicator_type">Välj mellan olika stilar för indikatorn</string>
+    <string name="pref_title_system_preferences">Systeminställningar</string>
+    <string name="pref_summary_system_preferences">Allmänna systeminställningar för ADWLauncher</string>
+    <string name="pref_title_screens_layout_preferencecategory">Skrivbordslayout</string>
+    <string name="pref_title_screens_behaviour_preferencecategory">Skrivbordsbeteende</string>
+    <string name="pref_title_drawer_preferencecategory">Programlådan</string>
+    <string name="pref_title_drawer_visuals_preferencecategory">Visuella effekter för Programlådan</string>
+    <string name="pref_title_highlights_preferencecategory">Ikonmarkeringar</string>
+    <string name="pref_title_indicators_preferencecategory">Skärmindikator</string>
+    <string name="pref_title_system_persistent">Ihållande system</string>
+    <string name="pref_summary_system_persistent">Farligt. Aktivera detta för att undvika att systemet avslutar startaren</string>
+    <string name="pref_title_theme_settings">Tema-inställningar</string>
+    <string name="pref_summary_theme_settings">Välj teman för ADWLauncher</string>
+    <string name="pref_title_theme_package">Välj ditt tema</string>
+    <string name="pref_summary_theme_package">Välj ditt tema för ADW.Launcher</string>
+    <string name="pref_title_theme_preview">Förhandsgranskning av tema</string>
+    <string name="pref_summary_theme_preview">Förhandsgranskning av det valda temat</string>
+    <string name="pref_title_theme_icons">Använd ikoner från temat</string>
+    <string name="pref_summary_theme_icons">Avmarkera detta för att använda systemets standardikoner</string>
+    <string name="pref_themes_apply_theme">Tillämpa tema!</string>
+    <string name="pref_themes_get_themes">Hämta teman!</string>
+    <string name="pref_title_wallpaper_scrolling">Bakgrundsscrollning</string>
+    <string name="pref_summary_wallpaper_scrolling">Tillåt bakgrunden att flyttas när man scrollar mellan skärmar</string>
+    <string name="message_delete_desktop_screen">Ta bort denna skärm med allt innehåll?</string>
+    <string name="message_cannot_delete_desktop_screen">Du kan inte ta bort den sista skärmen</string>
+    <string name="message_cannot_add_desktop_screen">Du kan inte lägga till fler skärmar</string>
+    <string name="message_cannot_swap_desktop_screen">Du kan inte byta ut skärmar</string>
+    <string name="menu_edit">Ändra</string>
+    <string name="pref_label_shirtcuts">Anpassad genväg</string>
+    <string name="pref_label_activities">Aktiviteter</string>
+    <string name="shirtcut_header">Välj din önskade applikationsaktivitet att starta.\nDu kan även välja en anpassad ikon.</string>
+    <string name="shirtcut_pick_activity">Välj din aktivitet</string>
+    <string name="shirtcut_label">Etikett</string>
+    <string name="shirtcuts_select_picture">Välj bild</string>
+    <string name="shirtcuts_crop_picture">Välj och beskär bild</string>
+    <string name="shirtcuts_icon_packs">ADWTheme IconPacks</string>
+    <string name="shirtcuts_select_icon_type">Välj ikontyp</string>
+    <string name="shirtcuts_select_icon_pack">Välj ikonpaket</string>
+    <string name="shirtcuts_restore_original">Återställ ursprunglig</string>
+    <string name="selectAll">Välj alla</string>
+    <string name="AppGroupAll">"ALLA"</string>
+    <string name="AppGroupUn">"Okategoriserad"</string>
+    <string name="AppGroupAdd">"Ny katalog"</string>
+    <string name="AppGroupDel">"Ta bort katalog"</string>
+    <string name="AppGroupDelLong">"Säker på att ta bort\nAktuell katalog?"</string>
+    <string name="AppGroupChoose">"Välj grupp"</string>
+    <string name="AppGroupConfig">"Ställ in grupp"</string>
+    <string name="AppGroupRename">"Ny katalog"</string>
+    <string name="AppGroupConfigError">"Du kan inte ställa in denna grupp"</string>
+    <string name="rename_group_title">Ny katalog</string>
+    <string name="rename_group_label">Katalognamn</string>
+    <string name="show_catalog">Visa katalog \"%s\"</string>
+    <string name="pref_title_adw_restart">Starta om ADW</string>
+    <string name="pref_summary_adw_restart">Stäng och starta om ADWLauncher</string>
+    <string name="pref_title_adw_reset">Återställ ADW</string>
+    <string name="pref_summary_adw_reset">Rensa inställningar för ADWLauncher och starta om</string>
+    <string name="scrollable_api_required">Denna widget behöver en uppdaterad version av ADWLauncher.\nVar god uppdatera eller kontakta widget-utvecklaren</string>
+    <string name="pref_title_drawer_navigate_catalogs">Katalognavigering</string>
+    <string name="pref_summary_drawer_navigate_catalogs">Visa navigeringsknappar för programkatalogerna</string>
+    <string name="pref_title_drawer_ungroup_catalog">Endast kataloger</string>
+    <string name="pref_summary_drawer_ungroup_catalog">Ta bort ALLA-kategorin och använd endast kategorier</string>
+    <string name="pref_title_drawer_show_catalogs">Visa katalogtitel</string>
+    <string name="pref_summary_drawer_show_catalogs">Visa katalogers titlar i programlådan</string>
+    <string name="pref_title_notif_receiver">Visa aviseringar</string>
+    <string name="pref_summary_notif_receiver">Aktivera de globala aviseringsräknarna</string>
+    <string name="pref_title_notif_size">Bubblors fontstorlek</string>
+    <string name="pref_summary_notif_size">Välj fontstorlek för aviseringsbubblorna</string>
+    <string name="pref_dialog_notif_size">Välj fontstorlek för aviseringsbubblorna</string>
+    <string name="pref_title_ab_preferencecategory">Huvuddocka</string>
+    <string name="pref_title_main_dock_style">Stil för huvuddocka</string>
+    <string name="pref_summary_main_dock_style">Ställ in huvuddockans layout</string>
+    <string name="pref_title_behaviour_preferences">Allmänt beteende</string>
+    <string name="pref_summary_behaviour_preferences">Konfiguration för det allmänna programbeteendet</string>
+    <string name="pref_title_drawer_style">Programlådans stil</string>
+    <string name="pref_summary_drawer_style">Växla mellan olika implmentationer av Programlådan</string>
+    <string name="pref_title_dockbar_preferencecategory">Gömd dockarad</string>
+    <string name="pref_title_ab_tint">Ton för dockans ikoner</string>
+    <string name="pref_summary_ab_tint">Utför grafisk färgskiftning på dockans ikoner</string>
+    <string name="pref_title_ab_tint_color">Färgton</string>
+    <string name="pref_summary_ab_tint_color">Ändra färgton</string>
+    <string name="pref_title_deletezone_preferencecategory">Papperskorg</string>
+    <string name="pref_title_deletezone_style">Papperskorgens position</string>
+    <string name="pref_summary_deletezone_style">Ändra position för papperskorgen</string>
+    <string name="pref_title_close_apps_dockbar">Stäng Programlådan</string>
+    <string name="pref_summary_close_apps_dockbar">Stäng Programlådan vid långt tryck på föremål när dockbar är synlig</string>
+    <string name="menu_lock">Lås skrivbord</string>
+    <string name="menu_unlock">Lås upp skrivbord</string>
+</resources>

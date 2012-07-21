@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+       <string-array name="menu_binding_entries">
+                <item>禁用</item>
+                <item>显示默认桌面</item>
+                <item>显示默认桌面/显示预览</item>
+                <item>显示预览</item>
+                <item>打开/关闭应用程序托盘</item>
+                <item>显示/隐藏状态栏</item>
+                <item>显示/隐藏通知栏</item>
+                <item>显示默认桌面/显示通知栏</item>
+                <item>打开/关闭扩展栏</item>
+                <item>打开程序...</item>
+       </string-array>
+       <string-array name="desktop_indicator_entries">
+                <item>顶部点状指示器</item>
+                <item>顶部滑动指示器</item>
+                <item>底部滑动指示器</item>
+       </string-array>				
+       <string-array name="desktop_transition_entries">
+                <item>正常</item>
+                <item>旋转</item>
+                <item>翻页</item>
+                <item>立方</item>
+                <item>散开</item>
+       </string-array>
+	   <string-array name="home_orientation_entries">
+                <item>自动</item>
+                <item>竖屏</item>
+                <item>横屏</item>
+       </string-array>
+       <string-array name="screen_cache_entries">
+                <item>低质量</item>
+                <item>自动</item>
+                <item>禁用</item>	   
+       </string-array>
+       <string-array name="main_dock_entries">
+                <item>无(扩展桌面)</item>
+                <item>3图标</item>
+                <item>5图标</item>
+                <item>1图标</item>
+       </string-array>
+       <string-array name="deletezone_entries">
+	        <item>无</item>
+	        <item>顶部</item>
+	        <item>底部</item>
+	        <item>顶部(缩小桌面)</item>
+	        <item>底部(缩小桌面)</item>
+       </string-array>
+       <string-array name="app_drawer_style_entries">
+                <item>纵向平面</item>
+                <item>横向分页</item>
+       </string-array>
+</resources>

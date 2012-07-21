@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">ADW.Launcher</string>
+    <!-- Default folder name -->
+    <string name="folder_name">סיפריה</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">בחר רקע מ...</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">בחר כרקע</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
+    <string name="activity_not_found">האפליקציה אינה מותקנת על המכשירך</string>
+    <!-- List item for configuring the current wallpaper -->
+    <string name="configure_wallpaper">הגדר...</string>
+
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">שם סיפריה</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">שנה שם סיפריה</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">אשר</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">בטל</string>
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item">הוסף לדף הבית</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">אפליקציות</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
+    <string name="group_shortcuts">קיצורי דרך</string>
+    <!-- Options in "Add to Home" dialog box; Title of the search gadget -->
+    <string name="group_search">חיפוש</string>
+    <!-- Options in "Add to Home" dialog box; Title of the folder gadget -->
+    <string name="group_folder">סיפריה חדשה</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all live folders -->
+    <string name="group_live_folders">סיפריות</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">"ווידג'ט"</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper-->
+    <string name="group_wallpapers">רקעים</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">אין יותר מקום בדף בית זה.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">קיצור דרך ל \"<xliff:g id="name" example="Browser">%s</xliff:g>\" .נוצר</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">קיצור דרך ל \"<xliff:g id="name" example="Browser">%s</xliff:g>\" .הוסר</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">קיצור דרך ל \"<xliff:g id="name" example="Browser">%s</xliff:g>\" כבר קיים.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">בחר קיצור דרך</string>
+    <!-- Title of dialog when user is selecting live folder to add to homescreen -->
+    <string name="title_select_live_folder">בחר סיפריה</string>
+
+    <!-- Menus items: -->
+    <skip />
+    <!-- Verb, menu item used to add an item on the desktop -->
+    <string name="menu_add">הוסף</string>
+    <!-- Noun, menu item used to set the desktop's wallpaper -->
+    <string name="menu_wallpaper">רקע</string>
+    <!-- Verb, menu item used to initiate global search -->
+    <string name="menu_search">חיפוש</string>
+    <!-- Noun, menu item used to show the system settings -->
+    <string name="menu_settings">הגדרות</string>
+    <string name="menu_adw_settings">ADWSettings</string>
+
+    <!-- Permissions: -->
+    <string name="permlab_install_shortcut">התקן קיצור דרך</string>
+    <string name="permdesc_install_shortcut">הרשה לאפליקציה להוסיף קיצור דרך
+	ללא תישאול משתמש</string>
+    <string name="permlab_uninstall_shortcut">הסדר קיצור דרך</string>
+    <string name="permdesc_uninstall_shortcut">הרשה לאפליקציה להסיר קיצור דרך
+	ללא תישאול משתמש.</string>
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />    
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">"בעיה בטעינת הווידג'ט"</string>
+    <!-- ADW Settings -->
+    <string name="pref_label_settings">AlmostNexus הגדרות</string>
+    <!-- Screen preferences -->
+    <string name="pref_title_screen_preferences">הגדרות מסכים</string>
+    <string name="pref_summary_screen_preferences">מספר מסכים, מסך ראשי...</string>
+
+    <string name="pref_title_wallpaper_hack">פריצה לרקעים</string>
+    <string name="pref_summary_wallpaper_hack">בטל אופציה זאת אם אתה מקבל הודעת שגיאה. אופציה זאת מאפשרת שיפור במהירות הגלילה.</string>
+
+    <string name="pref_title_orientation_sensor">חיישן כיוון</string>
+    <string name="pref_summary_orientation_sensor">מאפשר סיבוב של שולחן העבודה</string>
+
+    <string name="pref_title_hide_statusbar">הסתר שורת מצב</string>
+    <string name="pref_summary_hide_statusbar">מסתיר את שורת המצב</string>
+
+    <string name="pref_title_default_screen">חלון שולחן העבודה הראשי</string>
+
+    <string name="pref_title_desktop_scrolling_speed">מהירות גלילה שולחן העבודה</string>
+    <string name="pref_summary_desktop_scrolling_speed">בחר את מהירות המעבר בין שולחנות העבודה</string>
+    <string name="pref_dialog_desktop_scrolling_speed">ככל שהמספר יותר נמוך, ככה המעבר יותר מהיר</string>
+
+    <string name="pref_title_desktop_overshoot">מעבר שולחן העבודה התחלה/סוף</string>
+    <string name="pref_summary_desktop_overshoot">מאפשר מעבר מהיר משולחן העבודה הראשון לאחרון</string>
+    <string name="pref_dialog_desktop_overshoot">בחר 0 לביטול אופציה זאת</string>
+
+    <!-- Drawer Settings -->
+    <string name="pref_title_drawer_settings">אפשרויות מגירת האפליקציות</string>
+    <string name="pref_summary_drawer_settings">אפשרויות של רשת מגירת האפליקציותצ</string>
+
+    <string name="pref_title_zoom_effect_speed">מהירות אפקט הזום</string>
+    <string name="pref_summary_zoom_effect_speed">בחר את הזמן במילישניות עובר אפקט הזום</string>
+    <string name="pref_dialog_zoom_effect_speed">בחר את הזמן במילישניות עובר אפקט הזום</string>
+
+    <string name="pref_title_page_horizontal_margin">רוחב שוליים אופקיים של הדף</string>
+    <string name="pref_summary_page_horizontal_margin">בחר את רוחב השוליים האופקיים של הדף</string>
+    <string name="pref_dialog_page_horizontal_margin">בחר את רוחב השוליים האופקיים של הדף</string>
+
+    <string name="pref_title_animated_drawer">מגירת אפליקציות מונפשת</string>
+    <string name="pref_summary_animated_drawer">הנפשת מגירת האפליקציות</string>
+
+    <string name="pref_title_drawer_columns_portrait">עמודות המגירה במצב מאורך</string>
+    <string name="pref_summary_drawer_columns_portrait">Select the number of drawer columns to use on portrait layout</string>
+    <string name="pref_dialog_drawer_columns_portrait">Select the number of drawer columns to use on portrait layout</string>
+
+    <string name="pref_title_drawer_rows_portrait">שורות המגירה במצב מאורך</string>
+    <string name="pref_summary_drawer_rows_portrait">Select the number of drawer rows to use on portrait layout</string>
+    <string name="pref_dialog_drawer_rows_portrait">Select the number of drawer rows to use on portrait layout</string>
+
+    <string name="pref_title_drawer_columns_landscape">עמורות המגירה במצב רוחבי</string>
+    <string name="pref_summary_drawer_columns_landscape">Select the number of drawer columns to use on landscape layout</string>
+    <string name="pref_dialog_drawer_columns_landscape">Select the number of drawer columns to use on landscape layout</string>
+
+    <string name="pref_title_drawer_rows_landscape">שורות המגירה במצב רוחבי</string>
+    <string name="pref_summary_drawer_rows_landscape">Select the number of drawer rows to use on landscape layout</string>
+    <string name="pref_dialog_drawer_rows_landscape">Select the number of drawer rows to use on landscape layout</string>
+
+    <!-- Previews preferences -->
+    <string name="pref_title_sense_previews">Sense תצוגה מקדמת של</string>
+    <string name="pref_summary_sense_previews">Use the new sense-like implementation</string>
+
+    <!-- Button preferences -->
+    <string name="pref_title_ui_settings">אפשרויות ממשק משתמש</string>
+    <string name="pref_summary_ui_settings">Enable/disable ui elements</string>
+
+    <string name="pref_title_home_button_binding">שיוך לחצן הבית</string>
+    <string name="pref_summary_home_button_binding">Select action for home button binding</string>
+
+    <string name="pref_title_swipedown_actions">פעולת החלקה למטה</string>
+    <string name="pref_summary_swipedown_actions">Select action for Swipe down gesture</string>
+    
+    <string name="pref_title_swipeup_actions">פעולת החלקה למעלה</string>
+    <string name="pref_summary_swipeup_actions">Select action for Swipe up gesture</string>
+
+    <string name="pref_title_desktop_dots">נקודות שולחני העבודה</string>
+    <string name="pref_summary_desktop_dots">Show/hide the nexus style pagination dots</string>
+
+    <string name="pref_title_dockbar">שורת עגינה</string>
+    <string name="pref_summary_dockbar">Enable/disable the new dockbar for your shortcuts</string>
+
+    <string name="pref_title_closing_dockbar">סגירת שורת עגינה</string>
+    <string name="pref_summary_closing_dockbar">Auto-close dockbar after app-launch</string>
+
+    <string name="pref_title_closing_folder">סגירת ספריות</string>
+    <string name="pref_summary_closing_folder">Auto-close folder after app-launch</string>
+
+    <string name="pref_title_ab_scale_factor">גודל לחצן פעולה</string>
+    <string name="pref_summary_ab_scale_factor">Set the scaling size for the ActionButton icons</string>
+    <string name="pref_dialog_ab_scale_factor">Set the scaling size for the ActionButton icons</string>
+
+    <string name="pref_title_hide_ab_bg">הסתר רקע ללחצן פעולה</string>
+    <string name="pref_summary_hide_ab_bg">Hide the background for the Action Buttons</string>
+
+    <string name="pref_title_hide_icon_labels">הסתר תוית סמל</string>
+    <string name="pref_summary_hide_icon_labels">Hide desktop icon labels</string>
+
+    <string name="pref_title_build_info">Build Information</string>
+    <string name="pref_title_adw_version">ADW Version</string>
+
+    <string name="pref_title_icon_highlights">צבע הדגשת לחיצת סמל</string>
+    <string name="pref_summary_icon_highlights">Set the color for icon press</string>
+    <string name="pref_title_icon_highlights_focus">צבע הדגשת סמל נבחר</string>
+    <string name="pref_summary_icon_highlights_focus">Set the color for icon focus</string>
+    <string name="pref_title_new_selectors">אפשרות בחירת אייקון חדשה</string>
+    <string name="pref_summary_new_selectors">Disable this to use the old drawables.</string>
+    <string name="pref_title_drawer_color">צבע רקע</string>
+    <string name="pref_summary_drawer_color">Set the color for the drawer background</string>
+
+    <string name="pref_dialog_title_color_picker">בחר צבע</string>
+    <string name="pref_dialog_message_color_picker">Tap on center color to confirm.\nPress back to cancel.</string>
+    <string name="pref_dialog_color_picker_alpha">אלפא</string>
+    <string name="pref_message_restart_normal">Changing this setting will make the Launcher restart itself</string>
+    <string name="pref_message_restart_froyo">Changing this setting will make the Launcher restart itself</string>
+    <string name="drop_to_uninstall">שחרר להסרה</string>
+    
+    <string name="pref_title_import_export">גיבוי ושיחזור</string>
+    <string name="pref_title_xml">ADW הגדרות</string>
+    <string name="pref_title_xml_import">שחזר הגדרות ADW</string>
+    <string name="pref_summary_xml_import">שחזר מ /sdcard/adw_settings.xml</string>
+    <string name="pref_title_xml_export">גבה הגדרות ADW </string>
+    <string name="pref_summary_xml_export">גבה ל /sdcard/adw_settings.xml</string>
+    
+    <string name="pref_title_db">הגדרות שולחן עבודה</string>
+    <string name="pref_title_db_import">שחזר הגדרות שולחן עבודה</string>
+    <string name="pref_summary_db_import">שחזר מ /sdcard/adw_launcher.db</string>
+    <string name="pref_title_db_export">גבה הגדרות שולחן עבודה</string>
+    <string name="pref_summary_db_export">Backup to /sdcard/adw_launcher.db</string>
+    
+    <string name="title_dialog_xml">ADW Launcher הגדרות</string>
+    <string name="import_export_sdcard_unmounted">לא נמצא כרטיס זיכרון!</string>
+    
+    <!-- XML Import/Export strings -->
+    <string name="message_dialog_export">גבה הגדרות ADW? כל מידע קיים ימחק</string>
+    <string name="xml_export_dialog">מגבה הגדרות ADW...</string>
+    <string name="xml_export_success">הגדרות ADW גובו בהצלחה!</string>
+    <string name="xml_export_error">שגיאה בגיבוי הגדרות ADW!</string>    
+    
+    <string name="message_dialog_import">שחזר הגדרות ADW? ADW.Launcher יאותחל.</string>
+    <string name="xml_import_dialog">משחזר הגדרות ADW...</string>  
+    <string name="xml_file_not_found">קובץ גיבוי ההגדרות לא נמצא!</string>
+    <string name="xml_not_readable">נמצא קובץ הגיבוי של ההגדרות אבל הוא בלתי קריא!</string>
+    <string name="xml_import_success">הגדרות ADW שוחזרו בהצלחה!</string>
+    <string name="xml_import_error">שגיאה בשיחזור הגדרות ADW!</string>
+    
+    <!-- Config Import/Export strings -->
+    <string name="message_dialog_export_config">גבה הגדרות שולחן העבודה? כל מידע גיבוי קיים ימחק!</string>
+    <string name="dbfile_export_dialog">גבה הגדרות שולחן העבודה...</string>
+    <string name="dbfile_export_success">ההגדרות גובו בהצלחה!</string>
+    <string name="dbfile_export_error">שגיאה בגיבוי ההגדרות!</string>
+    
+    <string name="message_dialog_import_config">שחזר הגדרות שולחן העבודה? ADW.Launcher יאותחל.</string>
+    <string name="dbfile_import_dialog">משחר הגדרות שולחן העבודה...</string>
+    <string name="dbfile_not_found">קובץ גיבוי ההגדרות לא נמצא!</string>
+    <string name="dbfile_not_readable">נמצא קובץ הגיבוי של ההגדרות אבל הוא בלתי קריא!</string>
+    <string name="dbfile_import_success">ההגדרות שוחזרו בהצלחה!</string>
+    <string name="dbfile_import_error">שגיאה בשיחזור ההגדרות</string>
+    <!--  Desktop columns/Rows -->
+    <string name="pref_title_desktop_columns">עמודות שולחן עבודה</string>
+    <string name="pref_summary_desktop_columns">בחר מספר עמודות לשולחן העבודה</string>
+    <string name="pref_dialog_desktop_columns">בחר מספר עמודות לשולחן העבודה</string>
+
+    <string name="pref_title_desktop_rows">שורות שולחן העבודה</string>
+    <string name="pref_summary_desktop_rows">בחר מספר שורות לשולחן העבודה</string>
+    <string name="pref_dialog_desktop_rows">בחר מספר שורות לשולחן העבודה</string>
+    
+    <string name="pref_title_autosize_icons">מתח אוטומטית</string>
+    <string name="pref_summary_autosize_icons">"נסה למתוח סמלים ווידג'טים"</string>
+
+
+    <string name="pref_title_drawer_labels">הצג תוית אפליקציה</string>
+    <string name="pref_summary_drawer_labels">הראה תוויות במגירת האפליקציות</string>
+    <string name="pref_title_fade_drawer_labels">עמעם תויות אפליקציות</string>
+    <string name="pref_summary_fade_drawer_labels">Labels fade instead of just appear. Uses more ram/cpu</string>
+	
+	<string name="widget_config_dialog_title">"הגדרות מתחית ווידג'ט"</string>
+	<string name="widget_config_dialog_summary">"כמה שורות/עמודות ווידג'ט יתפוס"</string>
+	<string name="widget_columns">עמודות</string>
+	<string name="widget_rows">שורות</string>
+    
+    <string name="pref_title_screen_cache">השתמש בזיכרון מטמון של המסך</string>
+    <string name="pref_summary_screen_cache">"גלילה חלקה יותר. בטל אם יש המון ווידג'טים!"</string>
+
+    <string name="pref_title_desktop_indicator">הראה מחוון שולחן עבודה</string>
+    <string name="pref_summary_desktop_indicator">מציג מחוון בזמן מעבר שולחנות העבודה</string>
+    <string name="pref_title_desktop_indicator_autohide">הסתר אוטומטית מחוון מעבר</string>
+    <string name="pref_summary_desktop_indicator_autohide">הסתר מחוון אחרי זמן מסוים</string>
+    <string name="pref_title_desktop_indicator_type">סוג מחוון</string>
+    <string name="pref_summary_desktop_indicator_type">בחר מבין סוגי המחוונים</string>
+
+	<!-- Category titles -->
+	<string name="pref_title_system_preferences">הגדרות מערכת</string>
+	<string name="pref_summary_system_preferences">הגדרות כלליות עבור ADW.Launcher</string>
+	<string name="pref_title_screens_layout_preferencecategory">מערך שולחן העבודה</string>
+	<string name="pref_title_screens_behaviour_preferencecategory">התנהגות שולחן העבודה</string>
+	<string name="pref_title_drawer_preferencecategory">מגירת האפליקציות</string>
+	<string name="pref_title_drawer_visuals_preferencecategory">אפשרויות חזותיות למגירת האפליקציות</string>
+	<string name="pref_title_highlights_preferencecategory">הדגשת סמל</string>
+	<string name="pref_title_indicators_preferencecategory">מחוון מסך</string>
+
+    <string name="pref_title_system_persistent">התמדת מערכת</string>
+    <string name="pref_summary_system_persistent">"אפשר אפשרות זאת כדי למנוע לקריסתו של הלאנצ'ר"</string>
+		   <!-- Theme preferences -->
+	<string name="pref_title_theme_settings">הגדרות ערכת נושא</string>
+	<string name="pref_summary_theme_settings">בחר ערכת נושא מ ADW.Launcher</string>
+	<string name="pref_title_theme_package">בחר ערכת נושא</string>
+	<string name="pref_summary_theme_package">בחר ערכת נושא עבור ADW.Launcher</string>
+	<string name="pref_title_theme_preview">תצוגה מקדמת</string>
+	<string name="pref_summary_theme_preview">תצוגה מקדמת של ערכת הנושא</string>
+	<string name="pref_title_theme_icons">השתמש בסמלי ערכת הנושא</string>
+	<string name="pref_summary_theme_icons">אל תבחר זאת אם אתה רוצה להשתמש בסמלי המערכת</string>
+	<string name="pref_themes_apply_theme">החל ערכת נושא!</string>
+	<string name="pref_themes_get_themes">הורד ערכות נושא!</string>
+</resources>

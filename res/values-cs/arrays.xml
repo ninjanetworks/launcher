@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+  <string-array name="menu_binding_entries">
+    <item>Žádná</item>
+    <item>Přesunout na plochu</item>
+    <item>Přesunout na plochu/ukázat náhledy</item>
+    <item>Ukázat náhledy</item>
+    <item>Otevřít/zavřít nabídku aplikací</item>
+    <item>Zobrazit/skrýt stavový řádek</item>
+    <item>Zobrazit/skrýt oznámení</item>
+    <item>Přesunout na plochu/Otevřít oznámení</item>
+    <item>Zobrazit/skrýt dok</item>
+    <item>Otevřít aplikaci\u2026</item>
+  </string-array>
+
+  <string-array name="desktop_indicator_entries">
+    <item>Bodový stránkovač nahoře</item>
+    <item>Posuvný stránkovač nahoře</item>
+    <item>Posuvný stránkovač dole</item>
+  </string-array>
+
+  <string-array name="desktop_transition_entries">
+    <item>Normální</item>
+    <item>Rotace</item>
+    <item>Stránka</item>
+    <item>Kostka</item>
+    <item>Rozptýlení</item>
+  </string-array>
+
+  <string-array name="home_orientation_entries">
+    <item>Automaticky/senzorem</item>
+    <item>Na výšku</item>
+    <item>Na šířku</item>
+  </string-array>
+
+  <string-array name="screen_cache_entries">
+    <item>Nízká kvalita</item>
+    <item>Automaticky</item>
+    <item>Vypnuto</item>
+  </string-array>
+
+  <string-array name="main_dock_entries">
+    <item>Žádný (rozšíření plochy)</item>
+    <item>3 ikony</item>
+    <item>5 ikon</item>
+    <item>1 ikona</item>
+  </string-array>
+
+  <string-array name="deletezone_entries">
+    <item>Žádný</item>
+    <item>Nahoře</item>
+    <item>Dole</item>
+    <item>Nahoře (zmenšit plochu)</item>
+    <item>Dole (zmenšit plochu)</item>
+  </string-array>
+
+  <string-array name="app_drawer_style_entries">
+    <item>Svislá plocha</item>
+    <item>Horizontální stránkování</item>
+  </string-array>
+
+  <string-array name="catalog_sorttype_entries">
+    <item>Jména</item>
+    <item>Stáří</item>
+  </string-array>
+</resources>
